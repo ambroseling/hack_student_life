@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.gradient-badge {
+  background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+  /* Optional: these make the badge pop a bit more */
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+
+/* Blue to Purple */
+.gradient-badge-1 {
+  background: linear-gradient(45deg, #4e54c8, #8f94fb);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+
+/* Orange to Pink */
+.gradient-badge-2 {
+  background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+
+/* Green to Blue */
+.gradient-badge-3 {
+  background: linear-gradient(45deg, #43cea2, #185a9d);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+
+/* Sunset */
+.gradient-badge-4 {
+  background: linear-gradient(45deg, #ff512f, #f09819);
+  padding: 8px 16px;
+  margin-right: 8px;
+  border-radius: 20px;
+}
+
+.redirect-button {
+  margin-left: auto;
+  margin-top: 8px;
+  margin-right: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.search-input {
+  margin-bottom: 16px;
+}
