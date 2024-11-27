@@ -1,5 +1,5 @@
 import os 
-from flask import Flask
+from flask import Flask, Blueprint
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from dotenv import load_dotenv
@@ -10,10 +10,10 @@ load_dotenv(dotenv_path='.env.dev', override=True)
 db = SQLAlchemy()
 
 def create_app():
+    api = Blueprint('api', __name__)
     app = Flask(__name__)
-    app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://hacksl:hacksl@localhost:5432/hacksl_db"
-    
-    # Initialize extensions with app
+    app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
+    app.register_blueprint(api, url_prefix='/api')
     db.init_app(app)
     migrate = Migrate(app, db)
     with app.app_context():
