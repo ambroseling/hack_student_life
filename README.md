@@ -1,5 +1,16 @@
 # 🎯 MeetingPlace - Your Ultimate UofT Event Hub
 
+## 🌐 Try it Now!
+### [→ LIVE DEMO: MeetingPlace Web App ←](http://allevenstatuoft.us-east-1.elasticbeanstalk.com/)
+
+Experience the future of UofT event discovery! Our platform is **LIVE** and ready for you to explore. Click the link above to:
+- 🔎 Browse hundreds of campus events in real-time
+- 🎯 Get personalized event recommendations
+- 🎨 Experience our sleek, intuitive interface
+- 🚀 See AWS technology in action
+
+**No signup required - Jump right in!**
+
 ![MeetingPlace UI](ui_screenshot.png)
 
 ## 🌟 What is MeetingPlace?
@@ -14,6 +25,20 @@ MeetingPlace is a game-changing event discovery platform that brings **ALL** Uof
 - 📱 Responsive, User-friendly Interface
 - 🤖 AI-powered Instagram Post Analysis
 - 🔄 Real-time Event Updates
+
+## 🚀 Quick Start
+
+Want to see it in action? Visit our live platform:
+[allevenstatuoft.us-east-1.elasticbeanstalk.com](http://allevenstatuoft.us-east-1.elasticbeanstalk.com/)
+
+Here's what you can do:
+1. 📱 Open the link on any device - we're fully responsive!
+2. 🔍 Use the smart search bar to find events
+3. 🏷️ Filter events by category (Sports, Arts, Academic, etc.)
+4. 📅 Browse upcoming events in real-time
+5. 💡 Get AI-powered event recommendations
+
+No installation needed - just click and explore!
 
 ## 🚀 AWS Technologies Powering Our Platform
 
