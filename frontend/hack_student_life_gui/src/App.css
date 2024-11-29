@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .gradient-badge {
   background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
   /* Optional: these make the badge pop a bit more */
@@ -54,3 +56,20 @@
 .search-input {
   margin-bottom: 16px;
 }
+
+
+#box {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 200px;
+  background-color: #1E3765;
+  z-index: 1000;
+}
+
+body {
+  background-image: url('../bulletin-board-background.jpg');
+  background-repeat: repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image in the viewport */
+}
+
