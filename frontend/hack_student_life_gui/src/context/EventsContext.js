@@ -10,15 +10,14 @@ export const EventsProvider = ({ children }) => {
     useEffect(() => {
         const fetchEvents = async () => {
             try {
-                const response = await fetchAllEvents();
-                console.log(response);
+                console.log("Fetching events...");
+                const response = await fetchAllEvents.fetchAllEvents();
+                console.log("Fetched events:", response);
                 setEvents(response);
                 setLoading(false);
             } catch (error) {
+                console.error("Error fetching events:", error);
                 setError(error);
-                setLoading(false);
-            }
-            finally {
                 setLoading(false);
             }
         };
