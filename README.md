@@ -26,20 +26,6 @@ MeetingPlace is a game-changing event discovery platform that brings **ALL** Uof
 - 🤖 AI-powered Instagram Post Analysis
 - 🔄 Real-time Event Updates
 
-## 🚀 Quick Start
-
-Want to see it in action? Visit our live platform:
-[allevenstatuoft.us-east-1.elasticbeanstalk.com](http://allevenstatuoft.us-east-1.elasticbeanstalk.com/)
-
-Here's what you can do:
-1. 📱 Open the link on any device - we're fully responsive!
-2. 🔍 Use the smart search bar to find events
-3. 🏷️ Filter events by category (Sports, Arts, Academic, etc.)
-4. 📅 Browse upcoming events in real-time
-5. 💡 Get AI-powered event recommendations
-
-No installation needed - just click and explore!
-
 ## 🚀 AWS Technologies Powering Our Platform
 
 ### 💪 Elastic Beanstalk
@@ -60,6 +46,30 @@ No installation needed - just click and explore!
 - Automated event detection
 - Context-aware information extraction
 
+## 🔥 What Makes Us Special?
+
+1. **Smart Event Discovery**: Our AI-powered system doesn't just list events - it understands them! Using AWS Rekognition, we extract event details from club Instagram posts automatically.
+
+2. **Scalability**: Built on AWS Elastic Beanstalk, we can handle anything from 10 to 10,000 users without breaking a sweat!
+
+3. **Real-time Updates**: Thanks to AWS RDS, event updates are instant and always in sync.
+
+4. **Community Focus**: We're not just an event platform - we're building a community where UofT students can discover, share, and connect!
+
+
+## Quick Start 🚀🚀🚀🚀🚀
+
+Want to see it in action? Visit our live platform:
+[allevenstatuoft.us-east-1.elasticbeanstalk.com](http://allevenstatuoft.us-east-1.elasticbeanstalk.com/)
+
+Here's what you can do:
+1. 📱 Open the link on any device - we're fully responsive!
+2. 🔍 Use the smart search bar to find events
+3. 🏷️ Filter events by category (Sports, Arts, Academic, etc.)
+4. 📅 Browse upcoming events in real-time
+5. 💡 Get AI-powered event recommendations
+
+No installation needed - just click and explore!
 ## 🛠️ Getting Started
 
 ### Backend Setup
@@ -96,26 +106,9 @@ Our intuitive UI features:
 - Event cards with key information
 - One-click event saving
 
-## 🔥 What Makes Us Special?
-
-1. **Smart Event Discovery**: Our AI-powered system doesn't just list events - it understands them! Using AWS Rekognition, we extract event details from club Instagram posts automatically.
-
-2. **Scalability**: Built on AWS Elastic Beanstalk, we can handle anything from 10 to 10,000 users without breaking a sweat!
-
-3. **Real-time Updates**: Thanks to AWS RDS, event updates are instant and always in sync.
-
-4. **Community Focus**: We're not just an event platform - we're building a community where UofT students can discover, share, and connect!
-
-## 👥 Team
-
-- [Team Member 1] - Full Stack Developer
-- [Team Member 2] - AWS Infrastructure
-- [Team Member 3] - UI/UX Design
-- [Team Member 4] - ML/AI Integration
-
 ## 🏆 AWS Hackathon Project
 
-This project was created for the AWS Features Hackathon, showcasing the power and flexibility of AWS services in creating real-world applications that solve actual problems.
+This project was created for the AWS Hack the Student Life Hackathon, showcasing the power and flexibility of AWS services in creating real-world applications that solve actual problems around the UofT campus.
 
 ## 📝 License
 
