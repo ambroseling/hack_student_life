@@ -66,24 +66,25 @@ function AllEvents() {
         }));
     };
 
+    const handleSearch = (searchValue) => {
+        const filtered = dummyEvents.filter(event =>
+            event.title.toLowerCase().includes(searchValue.toLowerCase()) ||
+            event.description.toLowerCase().includes(searchValue.toLowerCase())
+        );
+        setFilteredEvents(filtered);
+    };
+
     return (
         <Fragment>
             <div>
                 <div id="box">
-                    
-                    {/* <img src="hack_student_life/frontend/hack_student_life_gui/uoftlogo.jpg" alt="uoft" /> */}
-
-
-
-                    {/* title */}
                     <Row className="ml-1" style={{ display: "flex" }}>
                         <h1 className="font-weight-bold" style={{ align: "left", display: "flex" }}>MeetingPlace</h1>
-                        <h6 style={{ align: "right", display: "flex" }}>everything, everywhere, all at uoft</h6>
+                        <h6 style={{ align: "right", display: "flex" }}>everything, everywhere, all from uoft</h6>
                     </Row>
 
-                    {/* This is the search bar and the filter buttons underneath */}
                     <Row className="row-cols-lg-auto mt-4 align-items-center">
-                        <Search />
+                        <Search onSearch={handleSearch} />
                         <Row>
                             {available_tags.map((tag, index) => (
                                 <Col key={index}>
@@ -100,8 +101,8 @@ function AllEvents() {
                     <Row>
                         {filteredEvents.map((event, index) => (
                             <Col lg="4" md="6" sm="12" className="mb-4" key={index}>
-                                <Card className="card"> {/* apply the card class */}
-                                    <CardBody className="card-body"> {/* apply the card-body class */}
+                                <Card className="card">
+                                    <CardBody className="card-body">
                                         <CardHeader tag="h3" style={{ backgroundColor: "white" }}>{event.title}</CardHeader>
                                         <CardText>{event.description}</CardText>
                                         <CardText>{event.time}</CardText>
@@ -124,3 +125,4 @@ function AllEvents() {
 }
 
 export default AllEvents;
+
