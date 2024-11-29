@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .gradient-badge {
   background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
   /* Optional: these make the badge pop a bit more */
@@ -53,4 +55,92 @@
 
 .search-input {
   margin-bottom: 16px;
+}
+
+
+#box {
+  position: sticky;
+  top: 0px;
+  width: 100vw;
+  height: 12vh;
+  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+
+body {
+  background-image: url('../bulletin-board-background.jpg');
+  background-repeat: repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image in the viewport */
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  display: flex;
+}
+
+#leftbox {
+  position: sticky;  
+  float: left;
+  top: 0;
+  left: 0;
+  width: .5vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);
+  z-index: 1000;
+  flex-shrink: 0; /* Prevents the box from shrinking */
+}
+
+#rightbox {
+  position: sticky;
+  float: left;
+  top: 0;
+  left: 99vw;
+  width: 1vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);
+  z-index: 1000;
+  flex-shrink: 0; /* Prevents the box from shrinking */
+}
+
+#bottombox {
+  position: fixed;
+  float: left;
+  bottom: 0px;
+  width: 100vw;
+  height: 1vh;
+  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);
+  z-index: 1000;
+  flex-shrink: 0; /* Prevents the box from shrinking */
+}
+
+.content {
+  flex-grow: 1; /* Allows the content to expand */
+  padding: 20px;
+  overflow-y: scroll; /* Adds vertical scroll */
+  height: 100vh; /* Ensures the content takes up the full viewport height */
+  background-color: #f9f9f9;
+}
+
+
+.bulletin-board {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 50px;
+    position: relative;
+    justify-content: center; /* Horizontally center the items */ 
 }

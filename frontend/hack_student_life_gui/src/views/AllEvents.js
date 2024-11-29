@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, Fragment } from "react";
-import { Row, Card, CardBody, CardTitle, CardText, Container } from "reactstrap";
+import { Row, Card, CardBody, CardTitle, CardText, Container, CardHeader, Button, Col } from "reactstrap";
 import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import RedirectButton from "../components/RedirectButton";
 import Search from "../components/Search";
 import Tags from "../components/Tags";
 import Retrieve from "../components/Retrieve";
 import { useEvents } from "../context/EventsContext";
+
 
 function AllEvents() {
     const dummyEvents = [
@@ -26,7 +27,7 @@ function AllEvents() {
     const [selectedEvent, setSelectedEvent] = useState(null);
     const [tags, setTags] = useState([]);
     const [modalOpen, setModalOpen] = useState(false);
-    const filteredEvents = events.filter((event) => {
+    const filteredEvents = dummyEvents.filter((event) => {  //dummy events to use fake 
         return (
             (event.title.toLowerCase().includes(search.toLowerCase())) &&
             tags.every((tag) => event.tags.includes(tag))
@@ -38,9 +39,6 @@ function AllEvents() {
     };
     return <Fragment>
         <div>
-            <Row className="mt-3 mb-3 align-items-center text-center">
-                <h1 className="font-weight-bold">everything, everywhere, all uoft</h1>
-            </Row>
 
             <Container fluid="md">
                 <Search onSearchChange={handleSearch}/>
@@ -74,6 +72,7 @@ function AllEvents() {
                     ))
                 )}
             </Container>
+
         </div>
     </Fragment>;
 }
