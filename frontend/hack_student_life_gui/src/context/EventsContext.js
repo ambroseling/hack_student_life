@@ -1,5 +1,4 @@
 import React, { createContext, useState, useEffect, useContext } from "react";
-import fetchAllEvents from "../api/fetchAllEvents";
 const EventsContext = createContext();
 
 export const EventsProvider = ({ children }) => {
@@ -10,7 +9,7 @@ export const EventsProvider = ({ children }) => {
     const fetchEvents = async (search = '') => {
         setLoading(true);
         try {
-            const response = await fetch(`/api/get-events${search ? `?search=${search}` : ''}`);
+            const response = await fetch(`http://localhost:8000/api/get-events${search ? `?search=${search}` : ''}`);
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }

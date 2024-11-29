@@ -26,7 +26,7 @@ function AllEvents() {
         { id: 10, title: "Study Abroad Fair", description: "Learn about international exchange programs", date: new Date('2024-04-10T11:30:00'), location: "International Center", tags: ["academic", "general"] },
     ];
 
-    const { events, loading, error } = useEvents();
+    const { events, loading, error, fetchEvents } = useEvents();
     const [search, setSearch] = useState("");
     const [selectedEvent, setSelectedEvent] = useState(null);
     const [tags, setTags] = useState([]);
@@ -35,7 +35,7 @@ function AllEvents() {
 
     const [eventTags, setEventTags] = useState(available_tags);
     const [toggledTags, setToggledTags] = useState({});
-    const [filteredEvents, setFilteredEvents] = useState(dummyEvents);
+    const [filteredEvents, setFilteredEvents] = useState(events);
 
     useEffect(() => {
         const initialToggledState = {};
@@ -48,10 +48,10 @@ function AllEvents() {
     useEffect(() => {
         const areAnyTagsToggled = Object.values(toggledTags).some(isToggled => isToggled);
         if (areAnyTagsToggled) {
-            const filtered = dummyEvents.filter(event => event.tags.some(tag => toggledTags[tag]));
+            const filtered = events.filter(event => event.tags.some(tag => toggledTags[tag]));
             setFilteredEvents(filtered);
         } else {
-            setFilteredEvents(dummyEvents);
+            setFilteredEvents(events);
         }
     }, [toggledTags]);
 
@@ -63,11 +63,12 @@ function AllEvents() {
     };
 
     const handleSearch = (searchValue) => {
-        const filtered = dummyEvents.filter(event =>
+        const filtered = events.filter(event =>
             event.title.toLowerCase().includes(searchValue.toLowerCase()) ||
             event.description.toLowerCase().includes(searchValue.toLowerCase())
         );
         setFilteredEvents(filtered);
+        fetchEvents(searchValue);
     };
 
     const sortedEvents = filteredEvents.sort((a, b) => {
