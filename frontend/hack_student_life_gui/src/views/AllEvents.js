@@ -5,6 +5,7 @@ import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import RedirectButton from "../components/RedirectButton";
 import Search from "../components/Search";
 import Tags from "../components/Tags";
+import FilterButton from "../components/FilterButton";
 import { useEvents } from "../context/EventsContext";
 
 
@@ -44,23 +45,18 @@ function AllEvents() {
                         <h6 style = {{align: "right", display :"flex"}}>everything, everywhere, all at uoft</h6>
                     </Row>
 
-                    {/* This si the search bar and the filter buttons underneath */}
-                    <Row className="row-cols-lg-auto align-items-center">
-
+                    {/* This is the search bar and the filter buttons underneath */}
+                    <Row className="row-cols-lg-auto mt-4 align-items-center">
                         <Search/>
-
                         <Row>
                             {
                                 available_tags.map((tag, index) => ( 
                                     <Col>
-                                        <Button key={index} color="primary" outline className="mb-3 mr-3"> 
-                                            {tag} 
-                                        </Button> 
+                                        <FilterButton key={index} tag={tag} />
                                     </Col>
                                 ))
                             }
                         </Row>                       
-                
                     </Row>
             </div>
         
@@ -72,7 +68,7 @@ function AllEvents() {
                 {
                     filteredEvents.map((event, index) => (
                         <Row className="mb-2">
-                            <Card color = "success">
+                            <Card color = "primary">
                                 <CardBody>
                                     <CardHeader tag="h3">{event.title}</CardHeader>
                                     <CardText>{event.description}</CardText>
