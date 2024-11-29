@@ -226,6 +226,7 @@ def categorize_event(description: str, available_tags: List[str]) -> str:
     Returns:
         str: The most appropriate tag from available_tags
     """
+    
     try:
         # Ensure your API key is set
         openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -427,6 +428,9 @@ def get_events():
         'location': event.location,
         'tags': event.tags
     } for event in events]
+
+    result = Events.query.with_entities(Events.title, Events.description)
+    print(result)
     
     return jsonify(events_list)
 
