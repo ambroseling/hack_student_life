@@ -2,7 +2,10 @@ import axios from "axios";
 
 const fetchAllEvents = async () => {
     try {
-        const response = await axios.get("http://localhost:8000/api/events");
+        console.log("before fetchAllEvents!!!");
+        const response = await axios.get(`http://localhost:8000/api/get-events`);
+        console.log("fetchAllEvents!!!");
+        console.log(response.data);
         return response.data;
     } catch (error) {
         console.error("Error fetching events:", error);
@@ -10,4 +13,7 @@ const fetchAllEvents = async () => {
     }
 };
 
-export default fetchAllEvents
+
+export default {
+    fetchAllEvents
+};

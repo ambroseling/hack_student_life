@@ -7,6 +7,7 @@ import Search from "../components/Search";
 import Tags from "../components/Tags";
 import FilterButton from "../components/FilterButton";
 import SortDropDown from "../components/SortDropDown";
+import Retrieve from "../components/Retrieve";
 import { useEvents } from "../context/EventsContext";
 
 function AllEvents() {

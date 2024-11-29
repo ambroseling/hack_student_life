@@ -1,0 +1,23 @@
+# Scraping configuration
+# 1 for single-level, 
+# 2 for two-level scraping, 
+# 3 if you already have level 1 data, and want to get the details from each link
+level: 2 
+
+url_file: current_urls.yml # each link containing list of events you want to scrape
+
+# AgentQL Query for Level 1 scraping look at how to make queries here: https://docs.agentql.com/quick-start
+level1_query: |
+  {
+    events[] {
+        Name (name of the event)
+        URL (url link for the event)
+    }
+  }
+
+# NLP prompt for Level 2 scraping (using ScrapeGraph)
+# level2_prompt for clubs:
+# level2_prompt: "Extract the following information: club name, description, all social media links (Instagram, Facebook), phone number,and email address. Format as a JSON object."   
+
+# level2_prompt for events:
+level2_prompt: "Extract the event's title, description, date, location."

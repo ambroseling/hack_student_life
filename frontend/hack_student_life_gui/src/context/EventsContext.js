@@ -7,26 +7,29 @@ export const EventsProvider = ({ children }) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
 
+    const fetchEvents = async (search = '') => {
+        setLoading(true);
+        try {
+            const response = await fetch(`/api/get-events${search ? `?search=${search}` : ''}`);
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const data = await response.json();
+            setEvents(data);
+            setLoading(false);
+        } catch (error) {
+            console.error('Error fetching events:', error);
+            setError(error);
+            setLoading(false);
+        }
+    };
+
     useEffect(() => {
-        const fetchEvents = async () => {
-            try {
-                const response = await fetchAllEvents();
-                console.log(response);
-                setEvents(response);
-                setLoading(false);
-            } catch (error) {
-                setError(error);
-                setLoading(false);
-            }
-            finally {
-                setLoading(false);
-            }
-        };
         fetchEvents();
     }, []);
 
     return (
-        <EventsContext.Provider value={{ events, loading, error }}>
+        <EventsContext.Provider value={{ events, loading, error, fetchEvents }}>
             {children}
         </EventsContext.Provider>
     );

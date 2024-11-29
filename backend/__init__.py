@@ -11,7 +11,7 @@ db = SQLAlchemy()
 
 def create_app():
     api = Blueprint('api', __name__)
-    app = Flask(__name__)
+    app = Flask(__name__, static_folder='../frontend/hack_student_life_gui/build/static')
     app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("DATABASE_URL")
     app.register_blueprint(api, url_prefix='/api')
     db.init_app(app)
@@ -21,4 +21,4 @@ def create_app():
     return app
 
 # Create an app instance
-app = create_app()
+application = create_app()
