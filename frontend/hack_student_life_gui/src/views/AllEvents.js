@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, Fragment } from "react";
-import { Row, Card, CardBody, CardTitle, CardText, Container } from "reactstrap";
+import { Row, Card, CardBody, CardTitle, CardText, Container, CardHeader, Button, Col } from "reactstrap";
 import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import RedirectButton from "../components/RedirectButton";
 import Search from "../components/Search";
 import Tags from "../components/Tags";
 import { useEvents } from "../context/EventsContext";
+
 
 function AllEvents() {
     const dummyEvents = [
@@ -20,6 +21,7 @@ function AllEvents() {
         { id: 9, title: "Sports Tournament", description: "Intramural basketball championship games", time: "1:00 PM", location: "Recreation Center Courts", tags: ["tag2", "tag4"]},
         { id: 10, title: "Study Abroad Fair", description: "Learn about international exchange programs", time: "11:30 AM", location: "International Center", tags: ["tag1", "tag3"]},
     ];
+    const available_tags = ['music', 'general', 'sports', 'arts', 'academic', 'career', 'social', 'business','engineering','games','health','fitness','coding','other']
     const {events, loading, error } = useEvents();
     const [search, setSearch] = useState("");
     const [selectedEvent, setSelectedEvent] = useState(null);
@@ -35,36 +37,58 @@ function AllEvents() {
         <div>
 
             <div id="box">
-                <Container fluid="md">
-                    <Row className="ml-3">
-                        <h1 className="font-weight-bold" style={{color: "white"}}>Project Name</h1> 
-                        <h3 style={{color: "white"}}>everything, everywhere, all at uoft</h3>
+
+                    {/* title */}
+                    <Row className="ml-1" style = {{display: "flex"}}>
+                        <h1 className="font-weight-bold" style = {{align: "left", display :"flex"}}>Project Name</h1> 
+                        <h6 style = {{align: "right", display :"flex"}}>everything, everywhere, all at uoft</h6>
                     </Row>
-                    <Search/>
-                </Container>
+
+                    {/* This si the search bar and the filter buttons underneath */}
+                    <Row className="row-cols-lg-auto align-items-center">
+
+                        <Search/>
+
+                        <Row>
+                            {
+                                available_tags.map((tag, index) => ( 
+                                    <Col>
+                                        <Button key={index} color="primary" outline className="mb-3 mr-3"> 
+                                            {tag} 
+                                        </Button> 
+                                    </Col>
+                                ))
+                            }
+                        </Row>                       
+                
+                    </Row>
             </div>
         
-            <Container fluid="md">
+            <div id="leftbox"></div>
+            <div id="rightbox"></div>
+            <div id="bottombox"></div>
+
+            <Container fluid="md" className="bulletin-board">
                 {
-                    filteredEvents.map((event) => (
-                <Row className="mb-2">
-                    <Card>
-                        <CardBody>
-                            <CardTitle tag="h3">{event.title}</CardTitle>
-                            <CardText>{event.description}</CardText>
-                            <CardText>{event.time}</CardText>
-                            <CardText>{event.location}</CardText>
-                            <RedirectButton icon={faRightToBracket} link={`/event/${event.id}`} />
-                            {console.log(event.tags)}
-                            {event.tags.map((tag) => (
-                                <Tags tag={tag} />
-                            ))}
-                            </CardBody>
-                        </Card>
-                    </Row>
-                ))
+                    filteredEvents.map((event, index) => (
+                        <Row className="mb-2">
+                            <Card color = "success">
+                                <CardBody>
+                                    <CardHeader tag="h3">{event.title}</CardHeader>
+                                    <CardText>{event.description}</CardText>
+                                    <CardText>{event.time}</CardText>
+                                    <CardText>{event.location}</CardText>
+                                    <RedirectButton icon={faRightToBracket} link={`/event/${event.id}`} />
+                                    {event.tags.map((tag, index) => (
+                                        <Tags tag={tag} key={index} />
+                                    ))}
+                                </CardBody>
+                            </Card>
+                        </Row>
+                    ))
                 }
             </Container>
+
         </div>
     </Fragment>;
 }

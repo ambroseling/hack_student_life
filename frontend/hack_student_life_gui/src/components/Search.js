@@ -1,15 +1,12 @@
-import { Row,Input } from "reactstrap";
+import { Row,Input, InputGroupText, InputGroup } from "reactstrap";
 import { Fragment } from "react";
 const Search = () => {
     return <Fragment>
-        <Row>
-            <h4>What are you looking for?</h4>
-        </Row>
-            <Input
-                type="text"
-                placeholder="Search"
-                className="search-input"
-            />
+                <Input
+                    type="text"
+                    placeholder="What are you looking for?"
+                    className="search-input"
+                />
         </Fragment>
 }
 
