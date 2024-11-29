@@ -63,7 +63,8 @@
   top: 0px;
   width: 100vw;
   height: 12vh;
-  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);;
+  background:#1E3765;
+  color : white;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -74,9 +75,6 @@
 
 
 body {
-  background-image: url('../bulletin-board-background.jpg');
-  background-repeat: repeat; /* Prevents the image from repeating */
-  background-position: center center; /* Centers the image in the viewport */
   margin: 0;
   padding: 0;
   height: 100%;
@@ -121,8 +119,8 @@ html {
   float: left;
   bottom: 0px;
   width: 100vw;
-  height: 1vh;
-  background: linear-gradient(135deg, #E0E0E0 25%, #FFFFFF 50%, #E0E0E0 75%);
+  height: 2vh;
+  background:#1E3765;
   z-index: 1000;
   flex-shrink: 0; /* Prevents the box from shrinking */
 }
@@ -137,10 +135,39 @@ html {
 
 
 .bulletin-board {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    gap: 50px;
-    position: relative;
-    justify-content: center; /* Horizontally center the items */ 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 20px; /* Add consistent gap between cards */
+  padding: 20px; /* Add padding around the board */
+  width: 100%; /* Ensure the board takes full width */
+}
+
+.card {
+  flex: 1 1 300px; /* Allow cards to grow and shrink with a base width */
+  max-width: 350px; /* Set a maximum width for cards */
+  min-width: 350px;
+  min-height: 200px;
+  height: 300px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Evenly distribute space within the card */
+  overflow: hidden; /* Handle overflow content */
+}
+
+.card-body {
+  flex: 1; /* Make the card body take up available space */
+  display: flex;
+  min-width: 350px;
+  min-height: 200px;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: flex-start; /* Align items to the left */
+  padding: 10px; /* Add padding for better layout */
+}
+
+.tags-container {
+  display: flex; /* Display tags in a row */
+  flex-wrap: wrap; /* Wrap tags to new lines if needed */
+  gap: 8px; /* Add gap between tags */
 }

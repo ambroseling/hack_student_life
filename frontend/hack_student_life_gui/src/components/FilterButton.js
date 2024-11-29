@@ -1,18 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button } from 'reactstrap';
 
-const FilterButton = ({ tag }) => {
-    const [isToggled, setIsToggled] = useState(false);
-
-    const handleToggle = () => {
-        setIsToggled(!isToggled);
-    };
-
+const FilterButton = ({ tag, isToggled, onToggle }) => {
     return (
-        <Button color= 'primary' onClick={handleToggle} outline = {isToggled ? false : true}  className="mb-3 mr-3" size="sm">
+        <Button 
+            color = "light" 
+            onClick={() => onToggle(tag)} 
+            outline={!isToggled} 
+            className="mb-3 mr-3" 
+            size="sm"
+        >
             {tag}
         </Button>
     );
 };
 
 export default FilterButton;
+
