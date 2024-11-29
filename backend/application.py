@@ -214,6 +214,36 @@ def parse_date(date_string):
         print(f"Error parsing date '{date_string}': {str(e)}")
         return None
 
+def parse_time(time_string):
+    """Parse various time formats to datetime object"""
+    if not time_string:
+        return None
+        
+    try:
+        openai.api_key = os.getenv('OPENAI_API_KEY')
+
+        # Use GPT to parse and standardize the time format
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant that parses dates and times. Return only the ISO format datetime. If it is a range, return the start time only."},
+                {"role": "user", "content": f"Convert this time to ISO format (YYYY-MM-DD HH:MM:SS): {time_string}"}
+            ],
+            max_tokens=50,
+            temperature=0.3
+        )
+        
+        # Extract the parsed time from response
+        parsed_time = response.choices[0].message.content.strip()
+        
+        # Convert to datetime object
+        return datetime.strptime(parsed_time, '%Y-%m-%d %H:%M:%S')
+        
+    except Exception as e:
+        print(f"Error parsing time '{time_string}' with GPT: {str(e)}")
+        return None
+
+    
 
 def categorize_event(description: str, available_tags: List[str]) -> str:
     """
@@ -306,15 +336,7 @@ def import_events():
                     date = date.get('start')  # Use the start date for the event
                 
                 # Skip events without valid dates
-                if not date:
-                    errors.append(f"Skipped event '{detailed_info.get('title')}' - Invalid date format")
-                    continue
-                
-                # Parse the date string into a datetime object
-                parsed_date = date
-                if not parsed_date:
-                    errors.append(f"Skipped event '{detailed_info.get('title')}' - Could not parse date")
-                    continue
+                parsed_date = parse_time(date)
 
                 # Check for existing event to avoid duplicates
                 existing_event = Events.query.filter_by(
@@ -349,7 +371,7 @@ def import_events():
                     
                     db.session.add(new_event)
                     events_added += 1
-                    print(f"Added event '{detailed_info.get('title')}' with tags {tags}")
+                    print(f"Added event '{detailed_info.get('title')}' with tags {tags} and time {parsed_date}")
                     # Commit in batches to avoid memory issues
                     if events_added % 100 == 0:
                         db.session.commit()
@@ -414,10 +436,20 @@ def start_scraping():
 
 
 
-@application.route('/api/get-events',methods=['GET'])
+@application.route('/api/get-events', methods=['GET'])
 def get_events():
     print("========================== CALLING GET EVENTS ================================")
-    events = Events.query.all()
+    
+    # Get search parameter from query string
+    search_query = request.args.get('search', '')
+    
+    if search_query:
+        # Use ts_vector for full-text search
+        events = Events.query.filter(Events.ts_vector.match(search_query)).all()
+    else:
+        # If no search query, return all events
+        events = Events.query.all()
+    
     # Convert each event object to a dictionary
     events_list = [{
         'id': event.id,
