@@ -1,4 +1,1202 @@
 [
+  {
+    "source_url": "https://www.instagram.com",
+    "total_items": 119,
+    "items": [
+        {
+            "Name": "POP-UP THRIFT STORE",
+            "URL": "https://www.instagram.com/p/DC14Wy8v0Jl/",
+            "detailed_info": {
+                "title": "POP-UP THRIFT STORE",
+                "description": "Join us at our pop-up thrift store to shop sustainably and support this year's EIA-UofT bridge project! Find unique clothing while helping us raise funds to build a bridge for an isolated community in Bolivia.",
+                "date": "March 24, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "EIA's Annual Bridge 35 Design Case Competition",
+            "URL": "https://www.instagram.com/p/DAYofvYP8CK/",
+            "detailed_info": {
+                "title": "EIA's Annual Bridge 35 Design Case Competition",
+                "description": "Compete in EIA's Annual Bridge 35 Design Case Competition with FREE workshops and lunch!",
+                "date": "February 02, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "2024 Bridge Design Case Competition Recap",
+            "URL": "https://www.instagram.com/p/DBJZTeNPqHY/",
+            "detailed_info": {
+                "title": "2024 Bridge Design Case Competition Recap",
+                "description": "Our annual bridge case competition was a blast! Congratulations to our winners, Josephine Yang and Bilal Siddiqui of Team 6! They showcased their well-planned bridge design and methodology in an impressive presentation. Here are some of the highlights from our event! We'd also like to thank everyone who came out to the competition. Everybody successfully analyzed, designed and presented their bridge, which we loved watching. We hope to see you again next year!",
+                "date": "April 16, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "EIA Bridge Builders Conference",
+            "URL": "https://www.instagram.com/p/DCauwkaMc1H/",
+            "detailed_info": {
+                "title": "EIA Bridge Builders Conference",
+                "description": "In September, Jasmine, Angeli and Emily represented the University of Toronto chapter at the annual EIA Bridge Builders Conference! They connected with fellow chapters, learned from inspiring sessions, and gained valuable insights to guide us through the upcoming bridge project.",
+                "date": "January 27, 2025 18:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "EIA's Bridge Design Case Competition",
+            "URL": "https://www.instagram.com/p/DAADioXPbVe/",
+            "detailed_info": {
+                "title": "EIA's Bridge Design Case Competition",
+                "description": "Analyze, solve and design solutions to real-life civil engineering case studies! No experience required, all students welcome! Prize included!",
+                "date": "December 17, 2024 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Coffee with Chris",
+            "URL": "https://www.instagram.com/p/DA2QVuosJ01/",
+            "detailed_info": {
+                "title": "Coffee with Chris",
+                "description": "Learned so much about their awesome bridge build in 🇧🇴 this past summer - so much project planning, cultural awareness, design and logistics - such an impressive and impactful opportunity. Certainly very cool stuff that has just been percolating along.",
+                "date": "April 14, 2025 20:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "TOUCHING SPEEDBIKES WORKSHOP",
+            "URL": "https://www.instagram.com/p/DAjDpDNP5gx/",
+            "detailed_info": {
+                "title": "TOUCHING SPEEDBIKES WORKSHOP",
+                "description": "This week we will be having workshop sessions to learn about our speed bikes. We will be learning about all the different parts of the bikes, and will be getting our hands dirty taking them apart and fixing things.",
+                "date": "February 23, 2025 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "BATTLE MOUNTAIN 2024",
+            "URL": "https://www.instagram.com/p/DBpLKxRPIzd/",
+            "detailed_info": {
+                "title": "BATTLE MOUNTAIN 2024",
+                "description": "Some shots of our amazing team #hpvdt",
+                "date": "February 06, 2025 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Play on the Runway",
+            "URL": "https://www.instagram.com/p/C_oqMWDvqsZ/",
+            "detailed_info": {
+                "title": "Play on the Runway",
+                "description": "In August, HPVDT was invited by Northcrest Developments to attend the third annual Play on the Runway event. The team prepared by refurbishing and sanding the streamliners. It was a long night of work and after we finished, we loaded the 5 streamliners up for transportation.",
+                "date": "May 09, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "The Play on The Runway 2024",
+            "URL": "https://www.instagram.com/p/C_osISOvEWj/",
+            "detailed_info": {
+                "title": "The Play on The Runway 2024",
+                "description": "Unfortunately the event was cut short because we were hit by a rainstorm. There was super heavy downpour and winds (one of the tents blew over right by us). We still tried to make the best of the situation and waited the storm out so we could try riding these mega-bikes together. We’ll be back next year!",
+                "date": "April 23, 2025 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Electronics 101 Workshop",
+            "URL": "https://www.instagram.com/p/DARNt4Bv3Xj/",
+            "detailed_info": {
+                "title": "Electronics 101 Workshop",
+                "description": "Join our Electronics 101 Workshop to learn skills needed on our Electrics Team, including breadboarding, reading electrical schematics, using basic electronic components, integrated circuits, and interpreting data sheets.",
+                "date": "January 07, 2025 19:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UNIVERSITY OF TORONTO HUMAN POWERED VEHICLES TEAM Kickoff Meeting",
+            "URL": "https://www.instagram.com/p/C_1Gpb1PGbc/",
+            "detailed_info": {
+                "title": "UNIVERSITY OF TORONTO HUMAN POWERED VEHICLES TEAM Kickoff Meeting",
+                "description": "We are having our first Kickoff Meeting this Saturday September 14 at 3pm! Meet us on the 5th floor of 256 McCaul street for an intro presentation and a tour of the workshop. This session will give you a chance to meet the team and engage in hands-on work. If you cannot attend, please inform us for a mini intro session.",
+                "date": "March 09, 2025 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Human Powered Vehicle Design Team Introduction",
+            "URL": "https://www.instagram.com/p/C9kXvX5JXF4/",
+            "detailed_info": {
+                "title": "Human Powered Vehicle Design Team Introduction",
+                "description": "Join the Innovation with HPVDT at the University of Toronto! Dive into the exciting world of design and construction to create innovative, high-performance, human-powered vehicles with the Human-Powered Vehicles Design Team (HPVDT).",
+                "date": "March 10, 2025 18:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "University Vehicles of Toronto Design Human Powered Team Final Nametag Session",
+            "URL": "https://www.instagram.com/p/DAi924ivaSU/",
+            "detailed_info": {
+                "title": "University Vehicles of Toronto Design Human Powered Team Final Nametag Session",
+                "description": "We will be finishing our Carbon Composites sessions this week! During this session you will be finishing the carbon fibre name  you guys made by sanding and trimming them before you take them home. Also if you haven’t made a name tag yet and want to this is your last chance to make one! You can still make one.",
+                "date": "May 20, 2025 20:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "BATTLE MOUNTAIN 2024",
+            "URL": "https://www.instagram.com/p/DBHiXh1vGYb/",
+            "detailed_info": {
+                "title": "BATTLE MOUNTAIN 2024",
+                "description": "HPVDT made it for the final year of Battle Mountain in Nevada. We brought our Cyclone and Tempest Streamliners to the World Human Powered Speed Challenge. In preparation we made some tweaks to the drivetrains and tires, as well as adding mounting latches.",
+                "date": "March 06, 2025 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UNIVERSITY VEHICLES OF TORONTO DESIGN HUMAN POWERED TEAM CARBON COMPOSITE WORKSHOP",
+            "URL": "https://www.instagram.com/p/DAT-wAIvAOd/",
+            "detailed_info": {
+                "title": "UNIVERSITY VEHICLES OF TORONTO DESIGN HUMAN POWERED TEAM CARBON COMPOSITE WORKSHOP",
+                "description": "We will be having Intro to Carbon Composites sessions this week! Join us as everyone will be making carbon fiber name !",
+                "date": "February 14, 2025 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "iGEM Toronto 2024 Meet Finance",
+            "URL": "https://www.instagram.com/p/DBJt8L3RJor/",
+            "detailed_info": {
+                "title": "iGEM Toronto 2024 Meet Finance",
+                "description": "Meet iGEM Toronto’s finance team! They ensure the books are balanced, funds are secured, and support research innovation every step of the way!",
+                "date": "May 27, 2025 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "iGEM Toronto Sunday Sketches #10",
+            "URL": "https://www.instagram.com/p/DB7FXvBy5oQ/",
+            "detailed_info": {
+                "title": "iGEM Toronto Sunday Sketches #10",
+                "description": "Week 10 of our weekly Sunday Sketches in spirit of the iGEM Grand Jamboree, featuring illustrations that inspire curiosity and a love for science.",
+                "date": "May 24, 2025 17:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "iGEM Toronto 2024 Meet Outreach",
+            "URL": "https://www.instagram.com/p/DA3omK5RKdD/",
+            "detailed_info": {
+                "title": "iGEM Toronto 2024 Meet Outreach",
+                "description": "Our outreach is all about connecting YOU to synthetic biology. From social media to public conferences, outreach transform complex research into accessible, engaging knowledge for all.",
+                "date": "December 30, 2024 19:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "iGEM Toronto 2024 Meet Entrepreneurship",
+            "URL": "https://www.instagram.com/p/DBjyMkZRn6N/",
+            "detailed_info": {
+                "title": "iGEM Toronto 2024 Meet Entrepreneurship",
+                "description": "Meet the entrepreneurship team! As iGEM Toronto ventures out to the Jamboree, entrepreneurship has been hard at work, building business strategies and foraging industry connections!",
+                "date": "December 24, 2024 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "i GEM 2024",
+            "URL": "https://www.instagram.com/p/DBo-8RVM3sx/",
+            "detailed_info": {
+                "title": "i GEM 2024",
+                "description": "Antibiotic resistance is one of the biggest health crises of our time, but we’re not standing still. Watch our promotional video to learn more about our revolutionary solution, Plasmid.AI, designed to tackle superbugs! Together, we’re shaping a future where treatable infections stay treatable.",
+                "date": "May 27, 2025 20:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "iGEM Toronto Sunday Sketches #9",
+            "URL": "https://www.instagram.com/p/DBWprXFu02q/",
+            "detailed_info": {
+                "title": "iGEM Toronto Sunday Sketches #9",
+                "description": "Week 9 of our weekly Sunday Sketches with a creepy twist, featuring illustrations that inspire curiosity and a love for science.",
+                "date": "January 13, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Writing New Life with iGEM TO 2024",
+            "URL": "https://www.instagram.com/p/DAtmVisRSBW/",
+            "detailed_info": {
+                "title": "Writing New Life with iGEM TO 2024",
+                "description": "iGEM Toronto is proud to announce the completion of our 2024 wiki! Our project, Plasmid.AI, uses generative AI to create new, functional DNA sequences. Our team has worked endlessly to leverage this platform to combat anti-microbial resistance, a growing issue in todays world.",
+                "date": "May 28, 2025 20:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Weekly Technical General Meeting",
+            "URL": "https://www.instagram.com/p/CytgpFGJXwr/",
+            "detailed_info": {
+                "title": "Weekly Technical General Meeting",
+                "description": "Our weekly technical general meeting will now be held ONLINE. Please check your Discord for more information!",
+                "date": "December 24, 2024 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "ISET Info Session",
+            "URL": "https://www.instagram.com/p/CkgRLyYOg5z/",
+            "detailed_info": {
+                "title": "ISET Info Session",
+                "description": "Our info session is happening TOMORROW at 18:00 @ GB202. Our executives and team leads will give you a brief overview of our team and project for this year. There will be a draw prize at the end, and the winner will win a set of ISET merch (sticker, patch, and hoodie). If you cannot attend in person, this session will also be available via Zoom (registration link in bio).",
+                "date": "March 12, 2025 18:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "ISET Kickoff Meeting",
+            "URL": "https://www.instagram.com/p/CxjsSDSs4iM/",
+            "detailed_info": {
+                "title": "ISET Kickoff Meeting",
+                "description": "Our first kick-off meeting of this year is happening on Thursday, September 28th at 18:00 @ Galbraith Building Room 202. This year, we will be researching to design our own space station, which is not only meant to house research but is also to be a destination for the new business aspect of space travel. We will be accepting general applications until the day of the kick-off meeting, so bring your friends if they haven't signed up yet! If you cannot attend this session, don't worry! We will be sending out an email afterwards with the slides and future meeting details. Make sure you have signed up for our emailing list to receive it.",
+                "date": "March 28, 2025 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "ISET Kickoff Meeting",
+            "URL": "https://www.instagram.com/p/C_qJ-vrRKx9/",
+            "detailed_info": {
+                "title": "ISET Kickoff Meeting",
+                "description": "Join us at our kickoff meeting and be part of an epic mission to design a space station! Great opportunities, meet new friends, and free snacks!",
+                "date": "March 30, 2025 17:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Robotics for Space Exploration",
+            "URL": "https://www.instagram.com/p/C9GWT1EPeJq/",
+            "detailed_info": {
+                "title": "Robotics for Space Exploration",
+                "description": "Robotics for Space eXploration (RSX) is UofT’s Faculty of Applied Science and Engineering’s affiliated Mars Rover design team. As a team of passionate robotics engineers and space enthusiasts, we design, build, and compete with Mars Rovers to tackle missions such as in-situ life-detection testing, autonomous navigation, and equipment servicing. All students are welcome to join RSX regardless of your program, department, or year. Our subteams include Mechanical, Electrical, Software, Arm, Science, CANSAT, and Marketing and Events. We look forward to seeing what you explore, create, and learn with us!",
+                "date": "March 26, 2025 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SEEK Jr. Space Exploration Engineering Kompetition",
+            "URL": "https://www.instagram.com/p/DCAMCVnPlFT/",
+            "detailed_info": {
+                "title": "SEEK Jr. Space Exploration Engineering Kompetition",
+                "description": "RSX is thrilled to announce 'SEEK Jr.', our upcoming hackathon designed especially for high school students to dive into the world of space exploration, collaborate & compete with peers, to create an amazing mini rover and complete a variety of lunar missions.",
+                "date": "March 26, 2025 19:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "RSX Robotics for Space Exploration",
+            "URL": "https://www.instagram.com/p/DB6ek8dvP0W/",
+            "detailed_info": {
+                "title": "RSX Robotics for Space Exploration",
+                "description": "Come meet RSX at the University of Toronto’s Fall Campus Day, happening now at the Bahen Centre Lobby from 10 am to 4 pm.",
+                "date": "May 18, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "University Rover Challenge 2024",
+            "URL": "https://www.instagram.com/p/C-aslfBPtZC/",
+            "detailed_info": {
+                "title": "University Rover Challenge 2024",
+                "description": "We are so grateful for the opportunity to compete at the University Rover Challenge this year; it has been a goal for the team for years, and seeing it come to fruition has been incredible. We will be working harder than ever this year, so we can do even better at the next competition.",
+                "date": "May 19, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Robotics University for Space Exploration",
+            "URL": "https://www.instagram.com/p/C_ltxUZPSOX/",
+            "detailed_info": {
+                "title": "Robotics University for Space Exploration",
+                "description": "Interested in Space & Robotics? Come and Learn what RSX is all about, and what each of the Sub teams do. Meet us at Galbraith Room 202, on September 12th, 6:30-8:00 pm.",
+                "date": "December 02, 2024 19:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "RSX Space Exploration Showcase",
+            "URL": "https://www.instagram.com/p/C_wtTBrM3FN/",
+            "detailed_info": {
+                "title": "RSX Space Exploration Showcase",
+                "description": "Learn about our new plans and highlighted projects related to robotics for space exploration.",
+                "date": "December 31, 2024 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "ROBOTICS FOR SPACE EXPLORATION MEET THE EXECS",
+            "URL": "https://www.instagram.com/p/DAY-hZMv8ZA/",
+            "detailed_info": {
+                "title": "ROBOTICS FOR SPACE EXPLORATION MEET THE EXECS",
+                "description": "We are DELIGHTED to introduce our 2024-2025 Executive Team!!! We have so many talented, intelligent, and dedicated execs this year, and we are so excited to see what they do this year! Stay tuned for more updates from our team, coming soon!",
+                "date": "May 28, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Mechanical Executive Application Open",
+            "URL": "https://www.instagram.com/p/C9OGlRlPKn5/",
+            "detailed_info": {
+                "title": "Mechanical Executive Application Open",
+                "description": "Spark Design Club is looking for new Mechanical Executives for the 2024-2025 school year. Please refer to the application form for more details using the link in our bio and apply as soon as possible!",
+                "date": "January 02, 2025 17:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Dino Jump",
+            "URL": "https://www.instagram.com/p/DAGsstdsbKa/",
+            "detailed_info": {
+                "title": "Dino Jump",
+                "description": "Another exciting 2024-2025 project: Dino Jump! Want to help bring Dino Jump to life? As a General Member, you’ll have the chance to build Dino Jump with the mentorship of our awesome leads! Apply by Friday, September 20th at 11:59 pm EST through the application link in our bio. Check out our AGM slides for all the project details!",
+                "date": "March 04, 2025 19:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPARK'S ANNUAL GENERAL MEETING",
+            "URL": "https://www.instagram.com/p/C_lKX87R_Co/",
+            "detailed_info": {
+                "title": "SPARK'S ANNUAL GENERAL MEETING",
+                "description": "Join us and discover everything about our design club! We will go over what Spark does in more detail, an overview of the two displays we have planned for this year, and how you can get involved.",
+                "date": "December 29, 2024 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Smart Chess Project",
+            "URL": "https://www.instagram.com/p/DAEH12jsfr2/",
+            "detailed_info": {
+                "title": "Smart Chess Project",
+                "description": "Introducing one of our exciting projects for 2024-2025: Smart Chess! Want to help bring Smart Chess to life? As a General Member, you’ll have the chance build Smart Chess with the guidance of our experienced leads. Apply before Friday, September 20th at 11:59 pm EST through the application link in our bio! Check out the AGM slides for more project details!",
+                "date": "December 30, 2024 20:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPARK DESIGN CLUB MEET OUR 2024 - 2025 MARKETING & FINANCE EXECUTIVES",
+            "URL": "https://www.instagram.com/p/DA8rri5xkxw/",
+            "detailed_info": {
+                "title": "SPARK DESIGN CLUB MEET OUR 2024 - 2025 MARKETING & FINANCE EXECUTIVES",
+                "description": "Finally, meet our amazing Marketing and Finance execs 2024-2024: Grace, Leah, Kelly, and Tyra. The Finance team secures sponsorships and manages our budgets, while the Marketing exec amplifies Spark’s initiatives, promoting workshops and events to boost our presence both online and in the community!",
+                "date": "March 02, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPARK DESIGN CLUB MEET THE 2024 - 2025 CO-PRESIDENTS",
+            "URL": "https://www.instagram.com/p/DA1z7tmPZKb/",
+            "detailed_info": {
+                "title": "SPARK DESIGN CLUB MEET THE 2024 - 2025 CO-PRESIDENTS",
+                "description": "Meet our dynamic presidents for 2024-2025, Natasha and Sebastian! They excel at leading our innovative design team, guiding Spark execs in designing projects safely in Myhal, and liaising with the school to create exciting outreach events and workshops for you!",
+                "date": "December 24, 2024 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTFR’s Version of the Eras Tour",
+            "URL": "https://www.instagram.com/p/DCXiZi_ylQ4/",
+            "detailed_info": {
+                "title": "UTFR’s Version of the Eras Tour",
+                "description": "From 1999 to 2024, each of these cars has its own story and style! Which UTFR era is your favourite? Let us know!",
+                "date": "April 01, 2025 17:30pm - 18:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Brechin Shootout '24",
+            "URL": "https://www.instagram.com/p/DA1AsyduLaA/",
+            "detailed_info": {
+                "title": "Brechin Shootout '24",
+                "description": "Official Toronto Shootout 2024 Pics! 🏎️💨 Thank you to the organisers of the Toronto Shootout, we had an incredible time! It was amazing to see our team and cars racing again this year 💙 See you in 2025! 👏",
+                "date": "February 21, 2025 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Toronto Shootout Recap",
+            "URL": "https://www.instagram.com/p/DBe2scWyHhZ/",
+            "detailed_info": {
+                "title": "Toronto Shootout Recap",
+                "description": "Recap the event with us and relive some of our favourite moments from the track.",
+                "date": "December 22, 2024 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "BUNDLING WORKSHOP",
+            "URL": "https://www.instagram.com/p/DCZQAZFv6bw/",
+            "detailed_info": {
+                "title": "BUNDLING WORKSHOP",
+                "description": "Join us for a workshop where we will prep popsicle sticks for the bridges! Food will be provided. It is mandatory for all teams to attend!",
+                "date": "April 27, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "WORKSHOP #6: DESIGN REVIEW & FEEDBACK",
+            "URL": "https://www.instagram.com/p/DCmH4hBxgve/",
+            "detailed_info": {
+                "title": "WORKSHOP #6: DESIGN REVIEW & FEEDBACK",
+                "description": "Have your designs ready for feedback by Professor Rad. Food will be provided! This is a mandatory workshop for all teams.",
+                "date": "April 16, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "WORKSHOP #3: TEAM DESIGN & INFO SESSION",
+            "URL": "https://www.instagram.com/p/DBZIASnvRuD/",
+            "detailed_info": {
+                "title": "WORKSHOP #3: TEAM DESIGN & INFO SESSION",
+                "description": "Join us for a team design and information session. Note: It is mandatory for all teams to attend!",
+                "date": "December 30, 2024 20:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Kick Off Meeting",
+            "URL": "https://www.instagram.com/p/C_-s5PHPVGV/",
+            "detailed_info": {
+                "title": "Kick Off Meeting",
+                "description": "Come to Troitsky's Kick Off Meeting! Learn about the club with pizza and Legos!",
+                "date": "May 03, 2025 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "WORKSHOP #4: CONSTRUCTION INFO",
+            "URL": "https://www.instagram.com/p/DB6hBIOviQT/",
+            "detailed_info": {
+                "title": "WORKSHOP #4: CONSTRUCTION INFO",
+                "description": "JOIN US ON TUESDAY NOV 5, FROM 6-7PM IN GB117 TO BEGIN LEARNING HOW TO CONSTRUCT YOUR BRIDGES. NOTE: IT IS MANDATORY FOR ALL TEAMS TO ATTEND!",
+                "date": "May 25, 2025 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Troitsky Competition",
+            "URL": "https://www.instagram.com/p/DAq9bJ7P-1H/",
+            "detailed_info": {
+                "title": "Troitsky Competition",
+                "description": "The registration for the competition is now OPEN! Each person must complete the registration form individually. Details for the fee registration will be confirmed at a later date, and the fee will include accommodation, food at the competition, and materials.",
+                "date": "December 27, 2024 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "WORKSHOP #2: CIV100 REVIEW",
+            "URL": "https://www.instagram.com/p/DAtulsiP0rG/",
+            "detailed_info": {
+                "title": "WORKSHOP #2: CIV100 REVIEW",
+                "description": "JOIN US TO REVIEW CIV100 CONCEPTS FOR YOUR UPCOMING MIDTERM!",
+                "date": "February 27, 2025 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Workshop #1: Types of Bridge Designs",
+            "URL": "https://www.instagram.com/p/DARDv66vXEt/",
+            "detailed_info": {
+                "title": "Workshop #1: Types of Bridge Designs",
+                "description": "Join us to learn about the different types of bridges you can build this Wednesday at 6:00 PM in GB120.",
+                "date": "March 12, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Troitsky’s 2024-25 Bridge Building Competition",
+            "URL": "https://www.instagram.com/p/DAq-AnUviiD/",
+            "detailed_info": {
+                "title": "Troitsky’s 2024-25 Bridge Building Competition",
+                "description": "Registration for the competition opens now! Link in bio!",
+                "date": "April 24, 2025 20:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "WORKSHOP RECAP",
+            "URL": "https://www.instagram.com/p/DB6elwxP36t/",
+            "detailed_info": {
+                "title": "WORKSHOP RECAP",
+                "description": "Here is a recap of the workshops organized by Troitsky this year! Keep an eye out for more events/workshops we have to offer",
+                "date": "May 26, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Space Debris and Tomorrow’s Missions: The Impact on Our Future in Space",
+            "URL": "https://www.instagram.com/p/DCpn9zkPGZf/",
+            "detailed_info": {
+                "title": "Space Debris and Tomorrow’s Missions: The Impact on Our Future in Space",
+                "description": "Participants explored the critical issue of space debris—how it’s affecting us today and what it means for the future of space exploration — through engaging discussions and activities.",
+                "date": "February 21, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Fall Campus Day",
+            "URL": "https://www.instagram.com/p/DB7KACnvrD3/",
+            "detailed_info": {
+                "title": "Fall Campus Day",
+                "description": "A vibrant day showcasing student design teams and various programs at the University of Toronto, engaging both alumni and current students.",
+                "date": "March 11, 2025 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Introduction to Space Law Workshop",
+            "URL": "https://www.instagram.com/p/DCXHajVvCMj/",
+            "detailed_info": {
+                "title": "Introduction to Space Law Workshop",
+                "description": "Recap from the Introduction to Space Law Workshop hosted by LEAP at Aerospace Policy!",
+                "date": "April 24, 2025 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UNIVERSITY CHEMICAL OF VEHICLES TORONTO GENERAL INFO SESSION",
+            "URL": "https://www.instagram.com/p/C_pUoMkMexK/",
+            "detailed_info": {
+                "title": "UNIVERSITY CHEMICAL OF VEHICLES TORONTO GENERAL INFO SESSION",
+                "description": "Come and join our general information meeting and make some new friends! You can learn more about each division and get to know the UTCV Team better!",
+                "date": "April 16, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "AIChE Chevron Chem-E-Car Competition",
+            "URL": "https://www.instagram.com/p/C_OzKjbP4zH/",
+            "detailed_info": {
+                "title": "AIChE Chevron Chem-E-Car Competition",
+                "description": "We are at Myhal Lobby Table 79! Come and check out with us! Super excited to see you here!",
+                "date": "April 24, 2025 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Chevron e-Car Competition",
+            "URL": "https://www.instagram.com/p/C_PIvsJsS1P/",
+            "detailed_info": {
+                "title": "Chevron e-Car Competition",
+                "description": "Information about each division and contact details for further questions.",
+                "date": "April 16, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "AICHE Chem-E-Car Competition",
+            "URL": "https://www.instagram.com/p/C_J7bq4vRjT/",
+            "detailed_info": {
+                "title": "AICHE Chem-E-Car Competition",
+                "description": "UTCV is UNIVERSITY OF TORONTO NOW CHEMICAL VEHICLES RECRUITING! Join us! AICHE Chem-E-Car Competition. UTCV is Recruiting!!! 👏 Scan the QR code and apply to be a general member! We look forward to seeing you in our weekly lab sessions and feel free to contact us for any questions or concerns!",
+                "date": "December 10, 2024 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "CNCCC Competition Day I",
+            "URL": "https://www.instagram.com/p/C6zFBYhxGIl/",
+            "detailed_info": {
+                "title": "CNCCC Competition Day I",
+                "description": "Our team sailed our πrate ship all the way to Laval University. On the first day of the competition, we showcased our πrate canoe and πrate themed displays, AND even passed the swamp test! WE FLOAT!! We want to thank everyone who helped with building, casting, sanding, and sealing our canoe.",
+                "date": "February 18, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "University of Toronto Concrete Canoe Team Presentation Day",
+            "URL": "https://www.instagram.com/p/C60N1MTMOhO/",
+            "detailed_info": {
+                "title": "University of Toronto Concrete Canoe Team Presentation Day",
+                "description": "Our team presented the improvements in our safety and efficiency! Lots of knowledge learned from other universities! We got some time to explore Old Quebec while we wait for our paddlers to arrive! As our paddlers arrived, Aurora Borealis showed up! Our πrate is set to sail tomorrow!",
+                "date": "April 24, 2025 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UofT Concrete Canoe 2024-2025 Executive Positions Open",
+            "URL": "https://www.instagram.com/p/C7W1emCMVt5/",
+            "detailed_info": {
+                "title": "UofT Concrete Canoe 2024-2025 Executive Positions Open",
+                "description": "The UofT Concrete Canoe 2024-2025 Executive Positions are now OPEN!! The deadline for applications will be on June 7th and the interviews should be on a rolling basis starting May 27th.",
+                "date": "December 30, 2024 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "First General Meeting of HUCAN",
+            "URL": "https://www.instagram.com/p/DC7xNPFxHjY/",
+            "detailed_info": {
+                "title": "First General Meeting of HUCAN",
+                "description": "This month we held our first general meeting to introduce the sub-teams and welcome new members! Thank you to everyone who was able to attend! We’re still welcoming general members, please fill in the link in our bio if you’re interested.",
+                "date": "February 09, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UOFT Concrete Canoe Casting Day",
+            "URL": "https://www.instagram.com/p/C4JIAvdvKKR/",
+            "detailed_info": {
+                "title": "UOFT Concrete Canoe Casting Day",
+                "description": "Join us for the UOFT Concrete Canoe Casting Day where we will be casting our canoes. Please fill out the attendance form to let us know your timings, dietary restrictions, and PPE details. See you there!",
+                "date": "March 14, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Concrete Canoe Casting Practice Recap",
+            "URL": "https://www.instagram.com/p/C3ItmT-vLrc/",
+            "detailed_info": {
+                "title": "Concrete Canoe Casting Practice Recap",
+                "description": "Casting Practice Photos + Casting Day updates. Casting Day has been moved later in March due to design mix adjustments.",
+                "date": "January 20, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UOFT Concrete Canoe Competition - Race Day",
+            "URL": "https://www.instagram.com/p/C647y3ys22r/",
+            "detailed_info": {
+                "title": "UOFT Concrete Canoe Competition - Race Day",
+                "description": "As we reflect on an EVENTFUL year, we want to extend a massive thank you to every member of our team and our faculty! Despite numerous changes and challenges, everyone’s dedication made our canoe float! Not only did it float, but it also endured all aspects of the race! Thanks πrate! It was a successful year that we are all proud of! We are set for only great things moving forward! We’re also incredibly grateful to Laval University for hosting this competition! Quebec City made our experience even more memorable.",
+                "date": "May 04, 2025 20:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "General Meet",
+            "URL": "https://www.instagram.com/p/DCQJIIcRthK/",
+            "detailed_info": {
+                "title": "General Meet",
+                "description": "Join us this Sunday, November 17th at noon for our general meet! Learn more about our team and how you can join!",
+                "date": "March 10, 2025 18:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UOFT Concrete Canoe Casting Day",
+            "URL": "https://www.instagram.com/p/C38Rvy7P8qP/",
+            "detailed_info": {
+                "title": "UOFT Concrete Canoe Casting Day",
+                "description": "A day full of excitement as we will be building our canoe for the competition. Participants will mix concrete, cast the canoe, and help design our competition displays. No safety training is required, but participants must fill out a form and bring the appropriate PPE.",
+                "date": "December 10, 2024 19:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTRA Unplugged",
+            "URL": "https://www.instagram.com/p/DChMhgeR7z9/",
+            "detailed_info": {
+                "title": "UTRA Unplugged",
+                "description": "Meet the Outreach team/the team behind UTRA Unplugged videos!",
+                "date": "November 30, 2024 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTRA Unplugged: Meeting the admins",
+            "URL": "https://www.instagram.com/p/DA1OorJvELM/",
+            "detailed_info": {
+                "title": "UTRA Unplugged: Meeting the admins",
+                "description": "They’ll be leading the club to greater heights! Super cool, super chill. Don’t be shy and say hi if you see them around!",
+                "date": "January 17, 2025 17:30pm - 18:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Robotics Industry Insider Night",
+            "URL": "https://www.instagram.com/p/DCajA24MMVt/",
+            "detailed_info": {
+                "title": "Robotics Industry Insider Night",
+                "description": "Looking to land a job in robotics? Join us for a workshop about how to create resumes to maximize impressions on potential employers, be more effective in being selected by ATS systems, and effectively network on LinkedIn. There will also be a live panel of current and former PEY students and alumni who either work in the robotics industry or leveraged their robotics experience to get their current position.",
+                "date": "April 18, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Clubs Fair",
+            "URL": "https://www.instagram.com/p/CwtBC9-AwLO/",
+            "detailed_info": {
+                "title": "Clubs Fair",
+                "description": "Get to know UTRA - Where innovation meets robotics! 🤖 We create everything from soccer-playing humanoid robots to combat bots. Whether you're a newbie or a seasoned pro, there's a place for you here.",
+                "date": "April 05, 2025 19:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTRA Hacks",
+            "URL": "https://www.instagram.com/p/DCx6mo8M4x3/",
+            "detailed_info": {
+                "title": "UTRA Hacks",
+                "description": "UTRA Hacks Co-directors Answers The Web’s Most Searched Questions! Stay tuned for more information on UTRAHacks!",
+                "date": "May 26, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Coffee with Chris",
+            "URL": "https://www.instagram.com/p/DBNUn-wPQyC/",
+            "detailed_info": {
+                "title": "Coffee with Chris",
+                "description": "A chat about sustainability, creativity, and innovation, including discussions on upcoming events and co-curricular ideas.",
+                "date": "April 22, 2025 17:30pm - 18:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Evening with U of T Engineering Ambassadors",
+            "URL": "https://www.instagram.com/p/DA5AO-Rs0HS/",
+            "detailed_info": {
+                "title": "Evening with U of T Engineering Ambassadors",
+                "description": "What a fun evening indeed - huge shoutout to the design teams and speakers who talked about U of T engineering and its global impact.",
+                "date": "March 17, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Seismic Design Team Introduction",
+            "URL": "https://www.instagram.com/p/C8HiVMMs4aI/",
+            "detailed_info": {
+                "title": "Seismic Design Team Introduction",
+                "description": "Introducing the Seismic Design Team of Toronto. Join our discord link in bio and check out our executive team applications which are OPEN NOW! We are excited to meet you!",
+                "date": "December 31, 2024 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Club Fair",
+            "URL": "https://www.instagram.com/p/C_A7mCZRNGe/",
+            "detailed_info": {
+                "title": "Club Fair",
+                "description": "Come see us at the Club Fair!",
+                "date": "December 04, 2024 20:00pm - 23:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Civ Dinner/Dance",
+            "URL": "https://www.instagram.com/p/DBuVbVpPfJH/",
+            "detailed_info": {
+                "title": "Civ Dinner/Dance",
+                "description": "Some of our crew all dressed up at Civ Dinner/Dance",
+                "date": "December 28, 2024 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Sports Analytics Panel",
+            "URL": "https://www.instagram.com/p/DBxDW-xPiof/",
+            "detailed_info": {
+                "title": "Sports Analytics Panel",
+                "description": "Join us next Wednesday, Nov. 6 from 7-8pm in WB116 to learn from industry professionals!",
+                "date": "December 26, 2024 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPLxUTSPAN Seminar",
+            "URL": "https://www.instagram.com/p/DAd6OQPvh26/",
+            "detailed_info": {
+                "title": "SPLxUTSPAN Seminar",
+                "description": "Join the second SPLxUTSPAN Seminar led by Devin Pleuler titled Special Topics in Soccer Analytics on Wednesday Oct 2 at 7pm in WB116!",
+                "date": "April 14, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPLxUTSPAN Seminar: How to Build Your Own Motion Capture System",
+            "URL": "https://www.instagram.com/p/DA9Qy6nvtMi/",
+            "detailed_info": {
+                "title": "SPLxUTSPAN Seminar: How to Build Your Own Motion Capture System",
+                "description": "Join us at our third SPLxUTSPAN Seminar where Sreeker will explain how you can reconstruct 3D pose models from 2D pose estimation!",
+                "date": "January 17, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPL X UTSPAN Seminar",
+            "URL": "https://www.instagram.com/p/DABd0DIvr_V/",
+            "detailed_info": {
+                "title": "SPL X UTSPAN Seminar",
+                "description": "Presentation based on research done WB116 using SPL's open data. Hear from MLSE Biometrics Specialist Rob Mackowiak on how he has used SPL's open data to perform biomechanical research on movement variability!",
+                "date": "May 03, 2025 19:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "SPLxUTSPAN Data Challenge",
+            "URL": "https://www.instagram.com/p/DB2bTiLPhzu/",
+            "detailed_info": {
+                "title": "SPLxUTSPAN Data Challenge",
+                "description": "Submit your abstract for the SPLxUTSPAN Data Challenge and present your work to the Sport Performance Lab, where a winner will be chosen. This is a great opportunity to showcase your talent and be recognized for your innovative work!",
+                "date": "January 20, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "2024 Sports Analytics Panel",
+            "URL": "https://www.instagram.com/p/DCXUBFtPWzv/",
+            "detailed_info": {
+                "title": "2024 Sports Analytics Panel",
+                "description": "Insights shared by speakers in the sports analytics industry. Thank you to attendees!",
+                "date": "April 17, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "TORONTO MAPLE X LEAFS RAPTORS UTSPAN DATA CHALLENGE 2024 RESULTS",
+            "URL": "https://www.instagram.com/p/DC7H8MaP5dr/",
+            "detailed_info": {
+                "title": "TORONTO MAPLE X LEAFS RAPTORS UTSPAN DATA CHALLENGE 2024 RESULTS",
+                "description": "The winners of the inaugural SPLxUTSPAN Data Challenge are... Aaron Lio and Vikram Rawal!!! Rahul Selvakumar and Tara Chakkithara are the runners-up! Huge thank you to all the judges from MLSE for their help throughout the entire semester, including providing seminars and office hours. And Devin Pleuler for helping organize all aspects of this partnership. Thank you to all participants who presented their work. All participants will receive some notes via email over the next week.",
+                "date": "February 12, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Sports Analytics Panel",
+            "URL": "https://www.instagram.com/p/DBhIjGnvCD-/",
+            "detailed_info": {
+                "title": "Sports Analytics Panel",
+                "description": "A Sports Analytics Panel featuring discussions and insights on sports analytics.",
+                "date": "January 03, 2025 20:00pm - 23:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Office Hours with SPL Staff",
+            "URL": "https://www.instagram.com/p/DARhTnjPaW4/",
+            "detailed_info": {
+                "title": "Office Hours with SPL Staff",
+                "description": "Drop in to office hours with SPL staff to get inspired for project ideas or technical help",
+                "date": "March 10, 2025 19:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTSPAN HOUR #2 SCRAPING DATA + DATA VISUALIZATION",
+            "URL": "https://www.instagram.com/p/DAd6HLjPFkW/",
+            "detailed_info": {
+                "title": "UTSPAN HOUR #2 SCRAPING DATA + DATA VISUALIZATION",
+                "description": "UTSPAN Hour #2 led by Zeke on how to get data and make cool visualizations!",
+                "date": "April 12, 2025 20:00pm - 23:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTSM Fall Kickoff",
+            "URL": "https://www.instagram.com/p/C_sw8PlRQlQ/",
+            "detailed_info": {
+                "title": "UTSM Fall Kickoff",
+                "description": "Join us at the Fall Kickoff to meet the team and our division leads. Learn about our upcoming projects and discover how you can get involved. Meet fellow engineering students.",
+                "date": "February 06, 2025 20:30pm - 23:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Clubs Fair",
+            "URL": "https://www.instagram.com/p/C_I2dAHsIGm/",
+            "detailed_info": {
+                "title": "Clubs Fair",
+                "description": "Come visit us at CLUBS FAIR in the MYHAL ARENA from 11am-2pm to learn more about our team and what we do.",
+                "date": "March 15, 2025 20:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Meet the Leads: UTSM Executive Team Introduction",
+            "URL": "https://www.instagram.com/p/DCuKXoZRD1P/",
+            "detailed_info": {
+                "title": "Meet the Leads: UTSM Executive Team Introduction",
+                "description": "Welcome to the first part of our ‘Meet the Leads’ series!! Starting off with our lovely captains and amazing technical directors, stay tuned for more :)",
+                "date": "February 15, 2025 18:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTSM CAD WORKSHOP",
+            "URL": "https://www.instagram.com/p/C_9HPz7v1XI/",
+            "detailed_info": {
+                "title": "UTSM CAD WORKSHOP",
+                "description": "Join us for the UTSM CAD Workshop on September 18, 2024! Enhance your skills in CAD, meet fellow students, and get hands-on experience in this interactive workshop. Spaces are limited, so make sure to sign up ASAP!",
+                "date": "May 09, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "UTSM Annual Kickoff Event",
+            "URL": "https://www.instagram.com/p/DAKAHTaPOvI/",
+            "detailed_info": {
+                "title": "UTSM Annual Kickoff Event",
+                "description": "We held our annual Kickoff event to let all interested students know what UTSM is about! Thank you to everyone who was able to attend, we are looking forward to reviewing your applications!",
+                "date": "February 25, 2025 19:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Coffee with Chris",
+            "URL": "https://www.instagram.com/p/DAXb6dLsae5/",
+            "detailed_info": {
+                "title": "Coffee with Chris",
+                "description": "Discussion about engineering, internships, and opportunities with a focus on machine vision design and showcasing vehicles.",
+                "date": "January 26, 2025 17:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Concrete Toboggan Design Team",
+            "URL": "https://www.instagram.com/p/C8pAnKNMDUm/",
+            "detailed_info": {
+                "title": "Concrete Toboggan Design Team",
+                "description": "Join the Concrete Toboggan Design Team and help build a carbon fibre toboggan with concrete skis! Get experience pouring and testing concrete, laying up carbon fibre, machining metal, and using power tools! Anyone and everyone is welcome to join the team, with no commitment or experience required! Follow us @uoftbog for more info!",
+                "date": "January 15, 2025 19:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Concrete Toboggan Intro Meeting",
+            "URL": "https://www.instagram.com/p/C_bumc6uiat/",
+            "detailed_info": {
+                "title": "Concrete Toboggan Intro Meeting",
+                "description": "Curious about Concrete Toboggan? Join us in GB217 (Galbraith Building) for our intro meeting from 6-7 PM on Wednesday, September 11th! All years and all disciplines are welcome to attend!",
+                "date": "December 08, 2024 20:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Meet the Spirit Leads!",
+            "URL": "https://www.instagram.com/p/C-9ErkOvYHL/",
+            "detailed_info": {
+                "title": "Meet the Spirit Leads!",
+                "description": "UofTbog is the only design team that also has a spirit component! The leads are in charge of designing costumes, displays and other spirit related things with our theme in mind! Work-sessions for spirit will include learning how to use power tools, painting and sewing!",
+                "date": "April 22, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Summer Design Meetings",
+            "URL": "https://www.instagram.com/p/C8VIpQ3Obse/",
+            "detailed_info": {
+                "title": "Summer Design Meetings",
+                "description": "Join our CAD Review meeting to get involved with designing the toboggan this summer. Open to all current undergraduate students, no experience necessary!",
+                "date": "February 27, 2025 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Theme Announcement for GNCTR 2025",
+            "URL": "https://www.instagram.com/p/C9iSF6qvbib/",
+            "detailed_info": {
+                "title": "Theme Announcement for GNCTR 2025",
+                "description": "It's Theme Announcement Time! Swipe to find out our theme for GNCTR 2025.",
+                "date": "March 16, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Meet the Design Leads!",
+            "URL": "https://www.instagram.com/p/C-9EfjKPDUi/",
+            "detailed_info": {
+                "title": "Meet the Design Leads!",
+                "description": "We have 8 design leads this year! They are in charge of designing and manufacturing the parts for the Toboggan. As well as run work sessions for general members to attend. Activities would include concrete pours and testing, machining, working with carbon fibre and CNCing!",
+                "date": "May 28, 2025 19:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "U of T Concrete Toboggan Team Involvement",
+            "URL": "https://www.instagram.com/p/C7hJf7fOi7z/",
+            "detailed_info": {
+                "title": "U of T Concrete Toboggan Team Involvement",
+                "description": "Join our Discord to keep up with the team and get involved in the design process, spirit brainstorming, and socials!",
+                "date": "January 26, 2025 18:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Concrete Toboggan Design Team Intro Meeting",
+            "URL": "https://www.instagram.com/p/C_joE84CAvo/",
+            "detailed_info": {
+                "title": "Concrete Toboggan Design Team Intro Meeting",
+                "description": "Join the Concrete Toboggan Design Team!! Come out to our intro meeting at 6PM next Wednesday in GB217 if you want to learn more about the team!",
+                "date": "March 25, 2025 18:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Spirit Meeting",
+            "URL": "https://www.instagram.com/p/C-jNSJLvms4/",
+            "detailed_info": {
+                "title": "Spirit Meeting",
+                "description": "Come help brainstorm for Tech-Ex, Costumes, Opening Ceremonies, and other Spirit Stuff! No Experience Necessary! New Members Welcome!",
+                "date": "April 04, 2025 20:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Future-Living Lab 2024-25 Executive Team Application",
+            "URL": "https://www.instagram.com/p/C9u6qyaPvk_/",
+            "detailed_info": {
+                "title": "Future-Living Lab 2024-25 Executive Team Application",
+                "description": "Join our executive team to help organize design builds, competitions, events, and more! We are looking for students passionate about exploring sustainability in architecture and engineering.",
+                "date": "May 15, 2025 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "FIRM FAIR: BRIDGING HORIZONS",
+            "URL": "https://www.instagram.com/p/DCiB50CPh7V/",
+            "detailed_info": {
+                "title": "FIRM FAIR: BRIDGING HORIZONS",
+                "description": "Join us at the Bridging Horizons firm fair this Wednesday to connect with industry leaders and professionals in the architectural field!",
+                "date": "December 25, 2024 17:30pm - 18:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "FLL Research Lab Applications Open",
+            "URL": "https://www.instagram.com/p/DBKkzRVvkjk/",
+            "detailed_info": {
+                "title": "FLL Research Lab Applications Open",
+                "description": "Are you passionate about architecture, engineering, and sustainability? Want to dive deep into global research topics and explore different research methods like field studies and lab experiments? This year, we’re offering a complete research experience—from writing research papers to getting published, presenting at conferences, and being mentored by professors in academic research writing!",
+                "date": "March 22, 2025 17:00pm - 18:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "2024 Alumni Panel",
+            "URL": "https://www.instagram.com/p/DCKQuC7vp7n/",
+            "detailed_info": {
+                "title": "2024 Alumni Panel",
+                "description": "Join us to gain career insights and connect with our alumni panel! We’ve invited three new amazing panelists to share their experiences and insights, just for you!",
+                "date": "December 19, 2024 17:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "FIRM FAIR: BRIDGING HORIZONS",
+            "URL": "https://www.instagram.com/p/DCSgowrPhRn/",
+            "detailed_info": {
+                "title": "FIRM FAIR: BRIDGING HORIZONS",
+                "description": "Join us at the Firm Fair: Bridging Horizons event, where you’ll get the chance to connect with top industry firms, expand your network, and explore career paths in architecture, landscape, and design. Don’t miss this opportunity to bridge the gap between education and the professional world!",
+                "date": "April 10, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Annual Evolo Skyscraper Competition 2024",
+            "URL": "https://www.instagram.com/p/C9um0SOxj5u/",
+            "detailed_info": {
+                "title": "Annual Evolo Skyscraper Competition 2024",
+                "description": "Challenging members to create novel skyscrapers that explore the concept of vertical architecture while incorporating technology and innovative solutions to tackle world problems.",
+                "date": "December 03, 2024 18:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Payoh Bale Lodge Competition",
+            "URL": "https://www.instagram.com/p/C9um6acRINt/",
+            "detailed_info": {
+                "title": "Payoh Bale Lodge Competition",
+                "description": "Members competed in the Banaue Lodge Competition held by Terraviva, tasked to reimagine a sustainable lodging structure that promotes local traditions and tourism of Banaue Rice Terraces while harnessing the essence of this UNESCO site. The design aims to incorporate traditional Ifugao elements for cultural preservation and education.",
+                "date": "December 15, 2024 19:00pm - 20:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "GENERAL MEMBER SIGN-UP",
+            "URL": "https://www.instagram.com/p/C_jj8pLPNpw/",
+            "detailed_info": {
+                "title": "GENERAL MEMBER SIGN-UP",
+                "description": "Become a member for the chance to participate in events, build projects, and/or design competitions. Interdisciplinary collaboration with Architecture and Engineering perspectives on design challenges, and creative and technical skill development.",
+                "date": "February 10, 2025 19:30pm - 20:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "International Small Wind Turbine Competition",
+            "URL": "https://www.instagram.com/p/DBtmYVoR-xl/",
+            "detailed_info": {
+                "title": "International Small Wind Turbine Competition",
+                "description": "2nd year competing in a global competition in the Netherlands. This event involves creating a functional wind turbine and emphasizes safety considerations.",
+                "date": "December 01, 2024 20:00pm - 21:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "CAD Workshop",
+            "URL": "https://www.instagram.com/p/DAXII6FPZKu/",
+            "detailed_info": {
+                "title": "CAD Workshop",
+                "description": "Thanks for attending our CAD workshop! We hope you learned a thing or two. Thank you to our Mech team for hosting this event!",
+                "date": "December 27, 2024 18:30pm - 21:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Meet the Mechanical Leads",
+            "URL": "https://www.instagram.com/p/C_tACW0x7Pi/",
+            "detailed_info": {
+                "title": "Meet the Mechanical Leads",
+                "description": "Meet our 2024-2025 Mechanical and Manufacturing Leads! If you're ready to torque things up and gear into action, join the Mech subteam!",
+                "date": "May 14, 2025 19:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "Meet the Sustainability Leads",
+            "URL": "https://www.instagram.com/p/C_-9fUCRwBa/",
+            "detailed_info": {
+                "title": "Meet the Sustainability Leads",
+                "description": "Meet our 2024-2025 Sustainability Leads! Ready to plant some great ideas this year? Join Sustainability!",
+                "date": "January 04, 2025 20:00pm - 22:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "CAD Workshop",
+            "URL": "https://www.instagram.com/p/DAHekymyrP-/",
+            "detailed_info": {
+                "title": "CAD Workshop",
+                "description": "If you're looking to learn CAD, UT Wind's mech team is hosting a CAD Workshop from 6-8pm on Sept 25th in MY030. Share this with your friends if you think they would be interested. We can't wait to see you all there!",
+                "date": "May 08, 2025 18:30pm - 19:30pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "University of Toronto's Wind Turbine Design Team Kick-off Meeting",
+            "URL": "https://www.instagram.com/p/C_1Go2TvrO0/",
+            "detailed_info": {
+                "title": "University of Toronto's Wind Turbine Design Team Kick-off Meeting",
+                "description": "Thank you to everyone who came to our kickoff yesterday! For those who were not able to make it, click the link in our bio to join the slack channel! Can’t wait to see you all at our subteam meetings!",
+                "date": "March 16, 2025 17:00pm - 19:00pm",
+                "location": "University of Toronto"
+            }
+        },
+        {
+            "Name": "U of T Engineering Event",
+            "URL": "https://www.instagram.com/p/DA5AO-Rs0HS/",
+            "detailed_info": {
+                "title": "U of T Engineering Event",
+                "description": "A fun evening featuring passionate speakers discussing U of T Engineering and its global impact.",
+                "date": "May 07, 2025 19:30pm - 22:30pm",
+                "location": "University of Toronto"
+            }
+        }
+    ]
+}
+,
+
     {
         "source_url": "https://music.utoronto.ca/events",
         "total_items": 173,
