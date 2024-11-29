@@ -5,8 +5,10 @@ import boto3
 import requests
 import json
 
+
+
 # Load environment variables from the .env file
-load_dotenv()
+"""load_dotenv()
 
 # Get the API key from the environment
 api_key = os.getenv("OPENAI_API_KEY")
@@ -23,8 +25,8 @@ rekognition = boto3.client('rekognition', region_name='us-west-2')  # e.g., 'us-
 with open('instagram-data.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
+usersearch = "USER: soccer intermurals"
 for account in data:
-    print(account)
     for post in data[account]:
         url = post['displayUrl']
     
@@ -44,19 +46,23 @@ for account in data:
             detected_text.append(text_detection['DetectedText'])
 
         result = ' '.join(detected_text)
-        print(result)
 
-        completion = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", 
-                "content": "You will be presented with text from instagram posts and your job is to provide a set of tags from the following list. Provide your answer in bullet point form. Choose ONLY from the list of tags provided here and from the subtags associated with each tag (choose either the positive or the negative tag but NOT both):\n    \n    - Sporting event (volleyball, hockey, soccer, football, basketball)\n    - Professional Development (software hackathon, technical inverview preparation, skills workshop) \n    - Improve Student Life (mental wellness, tutoring, campus life)\n"
-                },
-                {
-                    "role": "user",
-                    "content": result
-                }
-            ]
-        )
+search = []
+search.append(result)
+search.append(usersearch)
+print(search)
+completion = client.chat.completions.create(
+    model="gpt-4o-mini",
+    messages=[
+        {"role": "system", 
+        "content": "You will be presented with text from instagram posts and your job is to pick which event is the most relevant to the user's search which will be the second list element"
+        },
+        {
+            "role": "user",
+            "content": result
+        }
+    ]
+)
 
-        print(completion.choices[0].message)
+print(completion.choices[0].message)"""
+
