@@ -21,7 +21,7 @@ function AllEvents() {
         { id: 9, title: "Sports Tournament", description: "Intramural basketball championship games", time: "1:00 PM", location: "Recreation Center Courts", tags: ["tag2", "tag4"]},
         { id: 10, title: "Study Abroad Fair", description: "Learn about international exchange programs", time: "11:30 AM", location: "International Center", tags: ["tag1", "tag3"]},
     ];
-    const {events, loading, error } = useEvents();
+    const { events, loading, error, fetchEvents } = useEvents();
     const [search, setSearch] = useState("");
     const [selectedEvent, setSelectedEvent] = useState(null);
     const [tags, setTags] = useState([]);
@@ -32,6 +32,10 @@ function AllEvents() {
             tags.every((tag) => event.tags.includes(tag))
         );
     });
+    const handleSearch = (searchTerm) => {
+        setSearch(searchTerm);
+        fetchEvents(searchTerm);
+    };
     return <Fragment>
         <div>
             <Row className="mt-3 mb-3 align-items-center text-center">
@@ -39,7 +43,7 @@ function AllEvents() {
             </Row>
 
             <Container fluid="md">
-                <Search/>
+                <Search onSearchChange={handleSearch}/>
                 <Retrieve />
                 {filteredEvents.length === 0 ? (
                     <Row className="mb-2">
@@ -56,9 +60,10 @@ function AllEvents() {
                                 <CardBody>
                                     <CardTitle tag="h3">{event.title}</CardTitle>
                                     <CardText>{event.description}</CardText>
-                                    <CardText>{event.time}</CardText>
+                                    {/* <CardText>{event.time}</CardText> */}
+                                    {event.date && <CardText>Date: {event.date}</CardText>}
                                     <CardText>{event.location}</CardText>
-                                    <RedirectButton icon={faRightToBracket} link={`/event/${event.id}`} />
+                                    <RedirectButton icon={faRightToBracket} link={event.source_url} />
                                     {console.log(event.tags)}
                                     {event.tags.map((tag) => (
                                         <Tags tag={tag} />
