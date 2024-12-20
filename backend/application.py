@@ -21,21 +21,30 @@ def apply_cors(response):
     allowed_origins = [
         "http://localhost:8000",
         "http://localhost:3000",
-        "http://localhost:5000",
-        f"{os.getenv('AWS_URL')}"
+        "http://127.0.0.1:8000",
+        "http://127.0.0.1:3000",
+        # Add HTTPS variants
+        "https://localhost:8000",
+        "https://localhost:3000",
+        "https://127.0.0.1:8000",
+        "https://127.0.0.1:3000"
     ]
     
-    # Check if the origin is in our allowed list
     if origin in allowed_origins:
-        # Set the specific origin that made the request
         response.headers["Access-Control-Allow-Origin"] = origin
     else:
-        # For development, you might want to allow all origins (not recommended for production)
         response.headers["Access-Control-Allow-Origin"] = "*"
     
+    # Ensure proper protocol handling
     response.headers["Access-Control-Allow-Credentials"] = "true"
     response.headers["Access-Control-Allow-Methods"] = "GET, POST, PUT, DELETE, OPTIONS"
-    response.headers["Access-Control-Allow-Headers"] = "Content-Type, Authorization"
+    response.headers["Access-Control-Allow-Headers"] = "*"  # Allow all headers
+    
+    # Handle preflight requests
+    if request.method == "OPTIONS":
+        response.headers["Access-Control-Max-Age"] = "1728000"  # 20 days
+        return response
+    
     return response
 
 def load_level3_data(file_path):
@@ -220,7 +229,7 @@ def parse_time(time_string):
         return None
         
     try:
-        openai.api_key = os.getenv('OPENAI_API_KEY')
+        openai.api_key = os.getenv('REACT_APP_OPENAI_API_KEY')
 
         # Use GPT to parse and standardize the time format
         response = openai.chat.completions.create(
@@ -258,7 +267,7 @@ def categorize_event(description: str, available_tags: List[str]) -> str:
     """
     try:
         # Ensure your API key is set
-        openai.api_key = os.getenv('OPENAI_API_KEY')
+        openai.api_key = os.getenv('REACT_APP_OPENAI_API_KEY')
         
         # Create the prompt
         prompt = f"""

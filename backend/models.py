@@ -14,7 +14,7 @@ class TSVector(TypeDecorator):
 class Events(db.Model):
     __tablename__ = "events"
     id = db.Column(db.Integer, primary_key=True)
-    source_url = db.Column(db.String(255), nullable=False)
+    source_url = db.Column(db.String(255))
     title = db.Column(db.String(255), nullable=False)
     description = db.Column(db.String(255), nullable=False)
     date = db.Column(db.DateTime, nullable=True)

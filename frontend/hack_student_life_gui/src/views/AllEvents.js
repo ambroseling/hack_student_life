@@ -8,6 +8,7 @@ import Tags from "../components/Tags";
 import FilterButton from "../components/FilterButton";
 import SortDropDown from "../components/SortDropDown";
 import Retrieve from "../components/Retrieve";
+import NavBar from "../components/NavBar";
 import { useEvents } from "../context/EventsContext";
 
 function AllEvents() {
@@ -26,6 +27,7 @@ function AllEvents() {
         { id: 10, title: "Study Abroad Fair", description: "Learn about international exchange programs", date: new Date('2024-04-10T11:30:00'), location: "International Center", tags: ["academic", "general"] },
     ];
 
+    const {recommendedEvents, setRecommendedEvents} = useState("");
     const { events, loading, error, fetchEvents } = useEvents();
     const [search, setSearch] = useState("");
     const [selectedEvent, setSelectedEvent] = useState(null);
@@ -35,7 +37,7 @@ function AllEvents() {
 
     const [eventTags, setEventTags] = useState(available_tags);
     const [toggledTags, setToggledTags] = useState({});
-    const [filteredEvents, setFilteredEvents] = useState(events);
+    const [filteredEvents, setFilteredEvents] = useState([]);
 
     useEffect(() => {
         const initialToggledState = {};
@@ -53,7 +55,7 @@ function AllEvents() {
         } else {
             setFilteredEvents(events);
         }
-    }, [toggledTags]);
+    }, [toggledTags, events]);
 
     const handleToggle = (tag) => {
         setToggledTags(prevState => ({
@@ -63,11 +65,6 @@ function AllEvents() {
     };
 
     const handleSearch = (searchValue) => {
-        const filtered = events.filter(event =>
-            event.title.toLowerCase().includes(searchValue.toLowerCase()) ||
-            event.description.toLowerCase().includes(searchValue.toLowerCase())
-        );
-        setFilteredEvents(filtered);
         fetchEvents(searchValue);
     };
 
@@ -81,53 +78,41 @@ function AllEvents() {
 
     return (
         <Fragment>
-            <div>
-                <div id="box">
-                    <Row className="ml-1" style={{ display: "flex" }}>
-                        <h1 className="font-weight-bold" style={{ align: "left", display: "flex" }}>MeetingPlace</h1>
-                        <h6 style={{ align: "right", display: "flex" }}>everything, everywhere, all from uoft</h6>
-                    </Row>
-
-                    <Row className="row-cols-lg-auto mt-4 align-items-center">
-                        <Search onSearch={handleSearch} />
-                        <Row>
-                            {available_tags.map((tag, index) => (
-                                <Col key={index}>
-                                    <FilterButton tag={tag} isToggled={toggledTags[tag]} onToggle={handleToggle} />
-                                </Col>
-                            ))}
-                            <Col>
-                                <SortDropDown sortOption={sortOption} setSortOption={setSortOption} />
-                            </Col>
-                        </Row>
-                    </Row>
-                </div>
-
-                <div id="bottombox"/>
-
-                <Container fluid="md" className="bulletin-board">
-                    <Row>
-                        {sortedEvents.map((event, index) => (
-                            <Col lg="4" md="6" sm="12" className="mb-4" key={index}>
-                                <Card className="card">
-                                    <CardBody className="card-body">
-                                        <CardHeader tag="h3" style={{ backgroundColor: "white" }}>{event.title}</CardHeader>
-                                        <CardText>{event.description}</CardText>
-                                        <CardText>{event.date.toLocaleString()}</CardText>
-                                        <CardText>{event.location}</CardText>
-                                        <RedirectButton icon={faRightToBracket} link={`/event/${event.id}`} />
-                                        <div className="tags-container">
-                                            {event.tags.map((tag, index) => (
-                                                <Tags tag={tag} key={index} />
-                                            ))}
-                                        </div>
-                                    </CardBody>
-                                </Card>
-                            </Col>
+        <div>
+        <NavBar />
+<Container fluid="md">
+    <Search onSearchChange={handleSearch}/>
+    {filteredEvents.length === 0 ? (
+        <Row className="mb-2">
+            <Card>
+                <CardBody>
+                    <CardTitle tag="h3">No events found</CardTitle>
+                </CardBody>
+            </Card>
+        </Row>
+    ) : (
+        filteredEvents.map((event) => (
+            <Row className="mb-2">
+                <Card>
+                    <CardBody>
+                        <CardTitle tag="h3">{event.title}</CardTitle>
+                        <CardText>{event.description}</CardText>
+                        {/* <CardText>{event.time}</CardText> */}
+                        {event.date && <CardText>Date: {event.date}</CardText>}
+                        <CardText>{event.location}</CardText>
+                        <RedirectButton icon={faRightToBracket} link={event.source_url} />
+                        {console.log(event.tags)}
+                        {event.tags.map((tag) => (
+                            <Tags tag={tag} />
                         ))}
-                    </Row>
-                </Container>
-            </div>
+                    </CardBody>
+                </Card>
+            </Row>
+        ))
+    )}
+</Container>
+
+</div>
         </Fragment>
     );
 }
