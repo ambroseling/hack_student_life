@@ -28,7 +28,7 @@ function AllEvents() {
     ];
 
     const {recommendedEvents, setRecommendedEvents} = useState("");
-    const { events, loading, error, fetchEvents } = useEvents();
+    // const { events, loading, error, fetchEvents } = useEvents();
     const [search, setSearch] = useState("");
     const [selectedEvent, setSelectedEvent] = useState(null);
     const [tags, setTags] = useState([]);
@@ -37,7 +37,7 @@ function AllEvents() {
 
     const [eventTags, setEventTags] = useState(available_tags);
     const [toggledTags, setToggledTags] = useState({});
-    const [filteredEvents, setFilteredEvents] = useState([]);
+    const [filteredEvents, setFilteredEvents] = useState(dummyEvents);
 
     useEffect(() => {
         const initialToggledState = {};
@@ -50,12 +50,12 @@ function AllEvents() {
     useEffect(() => {
         const areAnyTagsToggled = Object.values(toggledTags).some(isToggled => isToggled);
         if (areAnyTagsToggled) {
-            const filtered = events.filter(event => event.tags.some(tag => toggledTags[tag]));
+            const filtered = filteredEvents.filter(event => event.tags.some(tag => toggledTags[tag]));
             setFilteredEvents(filtered);
         } else {
-            setFilteredEvents(events);
+            setFilteredEvents(filteredEvents);
         }
-    }, [toggledTags, events]);
+    }, [toggledTags, dummyEvents]);
 
     const handleToggle = (tag) => {
         setToggledTags(prevState => ({
@@ -65,7 +65,7 @@ function AllEvents() {
     };
 
     const handleSearch = (searchValue) => {
-        fetchEvents(searchValue);
+        // fetchEvents(searchValue);
     };
 
     const sortedEvents = filteredEvents.sort((a, b) => {
@@ -79,9 +79,21 @@ function AllEvents() {
     return (
         <Fragment>
         <div>
+        <br/>
         <NavBar />
-<Container fluid="md">
+    <br/>
+    <Container  className="text-center">
+    <h1 style={{
+                    textDecoration: 'none',
+                    color: '#333',
+                    fontWeight: 'bold'
+                }}>Everything, Everywhere, All at UofT</h1>
+    </Container>
+    <div>
+    <br/>
     <Search onSearchChange={handleSearch}/>
+    <br/>
+    <h2>Events for You</h2>
     {filteredEvents.length === 0 ? (
         <Row className="mb-2">
             <Card>
@@ -90,15 +102,17 @@ function AllEvents() {
                 </CardBody>
             </Card>
         </Row>
-    ) : (
-        filteredEvents.map((event) => (
-            <Row className="mb-2">
+    ) : (                                                                                                                                                                                                                                                                                                                                              
+        <Container style={{ overflowX: 'auto', whiteSpace: 'nowrap', padding: '20px' }}>
+        <div  style={{ display: 'flex' }}>
+       {filteredEvents.map((event) => (
+           <Col style={{marginRight:'20px'}}>
                 <Card>
                     <CardBody>
                         <CardTitle tag="h3">{event.title}</CardTitle>
                         <CardText>{event.description}</CardText>
                         {/* <CardText>{event.time}</CardText> */}
-                        {event.date && <CardText>Date: {event.date}</CardText>}
+                        {event.date && <CardText>Date: {event.date.toLocaleString()}</CardText>}
                         <CardText>{event.location}</CardText>
                         <RedirectButton icon={faRightToBracket} link={event.source_url} />
                         {console.log(event.tags)}
@@ -107,10 +121,14 @@ function AllEvents() {
                         ))}
                     </CardBody>
                 </Card>
-            </Row>
-        ))
+            </Col>
+        ))}
+        </div>
+        </Container>
     )}
-</Container>
+
+    <h2>Career</h2>
+</div>
 
 </div>
         </Fragment>

@@ -132,10 +132,21 @@ html {
 .content {
   flex-grow: 1;
   padding: 20px;
-  overflow-y: scroll;
   height: 100vh;
   background-color: #f9f9f9;
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+}
+
+.event-section{
+  overflow-x: auto;
+  display:flex;
+  white-space: nowrap;
+}
+
+.event-row{
+  width:100%;
+  transition: transform 0.5s ease-in-out;
+  flex-wrap: no-wrap;
 }
