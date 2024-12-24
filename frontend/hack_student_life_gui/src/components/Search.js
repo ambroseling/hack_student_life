@@ -17,9 +17,9 @@ const Search = ({ onSearch }) => {
     return (
         <Fragment>
             <Input
+                className="search-input-container"
                 type="text"
                 placeholder="What are you looking for?"
-                className="search-input"
                 value={searchValue}
                 onChange={handleInputChange}
                 onKeyPress={(e) => e.key === 'Enter' && handleSearch()}

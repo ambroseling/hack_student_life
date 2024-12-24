@@ -18,21 +18,21 @@ const NavBar = () => {
                     color: '#333',
                     fontWeight: 'bold'
                 }}>Home</a>
-                <a href="/events" style={{
+                <a href="/groups" style={{
                     textDecoration: 'none', 
                     color: '#333',
                     fontWeight: 'bold'
-                }}>Events</a>
+                }}>Groups</a>
                 <a href="/profile" style={{
                     textDecoration: 'none',
                     color: '#333',
                     fontWeight: 'bold'
                 }}>Profile</a>
-                <a href="/settings" style={{
+                <a href="/logout" style={{
                     textDecoration: 'none',
                     color: '#333',
                     fontWeight: 'bold'
-                }}>Settings</a>
+                }}>Log Out</a>
             </nav>
                     </div>
     );

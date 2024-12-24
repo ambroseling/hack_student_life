@@ -1,15 +1,17 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState, Fragment, useEffect } from "react";
 import { Row, Card, CardBody, CardTitle, CardText, Container, CardHeader, Button, Col } from "reactstrap";
-import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
+import { faRightToBracket, faLocationDot, faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 import RedirectButton from "../components/RedirectButton";
+import { useEvents } from "../context/EventsContext";
 import Search from "../components/Search";
 import Tags from "../components/Tags";
 import FilterButton from "../components/FilterButton";
 import SortDropDown from "../components/SortDropDown";
 import Retrieve from "../components/Retrieve";
 import NavBar from "../components/NavBar";
-import { useEvents } from "../context/EventsContext";
+import EventsSection from "../components/EventsSection";
+import HeaderSection from "../components/HeaderSection";
 
 function AllEvents() {
     const available_tags = ['music', 'general', 'sports', 'arts', 'academic', 'career', 'social', 'business', 'engineering', 'games', 'health', 'fitness', 'coding', 'other'];
@@ -79,55 +81,19 @@ function AllEvents() {
     return (
         <Fragment>
         <div>
-        <br/>
+        <br height="200px"/>
         <NavBar />
     <br/>
-    <Container  className="text-center">
-    <h1 style={{
-                    textDecoration: 'none',
-                    color: '#333',
-                    fontWeight: 'bold'
-                }}>Everything, Everywhere, All at UofT</h1>
-    </Container>
+    <HeaderSection/>
     <div>
     <br/>
     <Search onSearchChange={handleSearch}/>
     <br/>
-    <h2>Events for You</h2>
-    {filteredEvents.length === 0 ? (
-        <Row className="mb-2">
-            <Card>
-                <CardBody>
-                    <CardTitle tag="h3">No events found</CardTitle>
-                </CardBody>
-            </Card>
-        </Row>
-    ) : (                                                                                                                                                                                                                                                                                                                                              
-        <Container style={{ overflowX: 'auto', whiteSpace: 'nowrap', padding: '20px' }}>
-        <div  style={{ display: 'flex' }}>
-       {filteredEvents.map((event) => (
-           <Col style={{marginRight:'20px'}}>
-                <Card>
-                    <CardBody>
-                        <CardTitle tag="h3">{event.title}</CardTitle>
-                        <CardText>{event.description}</CardText>
-                        {/* <CardText>{event.time}</CardText> */}
-                        {event.date && <CardText>Date: {event.date.toLocaleString()}</CardText>}
-                        <CardText>{event.location}</CardText>
-                        <RedirectButton icon={faRightToBracket} link={event.source_url} />
-                        {console.log(event.tags)}
-                        {event.tags.map((tag) => (
-                            <Tags tag={tag} />
-                        ))}
-                    </CardBody>
-                </Card>
-            </Col>
-        ))}
-        </div>
-        </Container>
-    )}
-
-    <h2>Career</h2>
+    <EventsSection events={filteredEvents} title="Events for You"/>
+    <EventsSection events={filteredEvents} title="Careers"/>
+    <EventsSection events={filteredEvents} title="Academics"/>
+    <EventsSection events={filteredEvents} title="Sports"/>
+    <EventsSection events={filteredEvents} title="Music"/>
 </div>
 
 </div>
