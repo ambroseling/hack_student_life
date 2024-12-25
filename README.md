@@ -15,7 +15,7 @@
   - Increase speed and reduce costs (ideally make it free).
 
 - [ ] **Build Modular and Student-Friendly App**
-  - Transition project to an app format for better modularity and usability. *(Deferred until after the break)*
+  - Transition project to an app format for better modularity and usability. *(Deferred until after the break)* 
 
 
 
