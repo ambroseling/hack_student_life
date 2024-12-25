@@ -1,3 +1,38 @@
+# TODO
+- [ ] **Improve the Recommendation System**
+  - Make it more responsive.
+
+- [ ] **Enhance Tagging System**
+  - Simplify and optimize tags to improve recommendation accuracy.
+
+- [ ] **Add Accounts System**
+  - Enable personal accounts for students and clubs.
+
+- [ ] **Enable Event Posting**
+  - Allow clubs and faculty to post events.
+
+- [ ] **Optimize Instagram Scraper**
+  - Increase speed and reduce costs (ideally make it free).
+
+- [ ] **Build Modular and Student-Friendly App**
+  - Transition project to an app format for better modularity and usability. *(Deferred until after the break)*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 🎯 MeetingPlace - Your Ultimate UofT Event Hub
 
 ## 🌐 Try it Now!
